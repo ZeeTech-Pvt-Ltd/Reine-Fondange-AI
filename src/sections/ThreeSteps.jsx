@@ -1,6 +1,5 @@
 import Reveal from '../components/Reveal.jsx';
 import SectionHead from '../components/SectionHead.jsx';
-import Icon from '../components/Icon.jsx';
 import RegistrationForm from '../components/RegistrationForm.jsx';
 import { THREE_STEPS, HERO } from '../data/content.js';
 
@@ -26,9 +25,6 @@ export default function ThreeSteps() {
 
           <Reveal className="steps__form" delay={120}>
             <div className="invitation">
-              <span className="invitation__ornament">
-                <Icon name="crown-solid" size={24} />
-              </span>
               <RegistrationForm
                 idPrefix="steps"
                 notice={HERO.formNotice}

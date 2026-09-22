@@ -1,6 +1,5 @@
 import RegistrationForm from '../components/RegistrationForm.jsx';
 import useMeta from '../hooks/useMeta.js';
-import Icon from '../components/Icon.jsx';
 import { SITE } from '../data/content.js';
 
 export default function SignUp() {
@@ -27,9 +26,6 @@ export default function SignUp() {
           Open your Reine Fondange AI account
         </h1>
         <div className="invitation">
-          <span className="invitation__ornament">
-            <Icon name="crown-solid" size={24} />
-          </span>
           <RegistrationForm idPrefix="signup" />
         </div>
         <p className="form__note" style={{ marginTop: 20 }}>

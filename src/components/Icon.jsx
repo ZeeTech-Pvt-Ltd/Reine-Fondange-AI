@@ -176,24 +176,6 @@ const PATHS = {
       <path d="M8 14h3v3H8z" />
     </>
   ),
-  crown: (
-    <>
-      <path d="M4.5 18h15" />
-      <path d="M6 18v-6.5l3.7 2.6L12 6.5l2.3 7.6 3.7-2.6V18" />
-      <circle cx="6.5" cy="9" r="0.4" />
-      <circle cx="12" cy="4.5" r="0.4" />
-      <circle cx="17.5" cy="9" r="0.4" />
-    </>
-  ),
-  'crown-solid': (
-    <>
-      <path d="M6 18v-6.5l3.7 2.6L12 6.5l2.3 7.6 3.7-2.6V18z" fill="currentColor" stroke="none" />
-      <rect x="3.6" y="17.1" width="16.8" height="1.8" rx="0.9" fill="currentColor" stroke="none" />
-      <circle cx="6" cy="10" r="1.1" fill="currentColor" stroke="none" />
-      <circle cx="12" cy="5" r="1.1" fill="currentColor" stroke="none" />
-      <circle cx="18" cy="10" r="1.1" fill="currentColor" stroke="none" />
-    </>
-  ),
   umbrella: (
     <>
       <path d="M12 2a10 10 0 0110 10H2A10 10 0 0112 2z" />

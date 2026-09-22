@@ -9,22 +9,6 @@ export default function Hero() {
       <div className="hero__glow hero__glow--one" />
       <div className="hero__glow hero__glow--two" />
 
-      {/* faint crown watermark behind the copy */}
-      <svg
-        className="hero__watermark"
-        viewBox="0 0 100 100"
-        fill="none"
-        stroke="#d4a017"
-        strokeWidth="1.6"
-        aria-hidden="true"
-      >
-        <path d="M22 64h56" />
-        <path d="M26 64V40l14 9.5L50 26l10 23.5L74 40v24" />
-        <circle cx="28" cy="36" r="2.6" />
-        <circle cx="50" cy="22" r="2.6" />
-        <circle cx="72" cy="36" r="2.6" />
-      </svg>
-
       <div className="container">
         <div className="hero__inner">
           <div className="hero__copy">
@@ -68,9 +52,6 @@ export default function Hero() {
 
           <div className="hero__visual">
             <div className="invitation">
-              <span className="invitation__ornament">
-                <Icon name="crown-solid" size={24} />
-              </span>
               <RegistrationForm
                 idPrefix="hero"
                 notice={HERO.formNotice}

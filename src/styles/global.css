@@ -405,18 +405,6 @@ button {
   background: rgba(212, 160, 23, 0.1);
 }
 
-/* faint crown watermark behind the copy */
-.hero__watermark {
-  position: absolute;
-  top: 24px;
-  right: 44%;
-  width: 420px;
-  height: 420px;
-  pointer-events: none;
-  opacity: 0.05;
-  transform: rotate(-8deg);
-}
-
 .hero__inner {
   position: relative;
   display: grid;
@@ -501,7 +489,7 @@ button {
   background: var(--surface);
   border: 1px solid rgba(201, 162, 39, 0.45);
   border-radius: var(--radius);
-  padding: 48px 38px 36px;
+  padding: 36px 38px 32px;
   box-shadow: 0 28px 64px rgba(0, 0, 0, 0.14);
 }
 
@@ -512,23 +500,6 @@ button {
   border: 1px solid rgba(201, 162, 39, 0.22);
   border-radius: 3px;
   pointer-events: none;
-}
-
-.invitation__ornament {
-  position: absolute;
-  top: -26px;
-  left: 50%;
-  transform: translateX(-50%);
-  width: 52px;
-  height: 52px;
-  border-radius: 50%;
-  background: var(--wine);
-  border: 2px solid var(--gold-bright);
-  color: var(--gold-light);
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  box-shadow: 0 0 0 7px var(--surface);
 }
 
 .invitation .form__title {
@@ -1761,35 +1732,12 @@ button {
   }
 }
 
-/* ---------- Final CTA (crest composition on burgundy) ---------- */
+/* ---------- Final CTA ---------- */
 
 .final-cta {
   background: var(--deep);
   text-align: center;
   border-top: 1px solid #c9a2274d;
-}
-
-.crest {
-  width: 88px;
-  height: 88px;
-  border-radius: 50%;
-  border: 2px solid var(--gold-bright);
-  background: rgba(253, 245, 232, 0.06);
-  color: var(--gold-light);
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin: 0 auto 32px;
-  position: relative;
-  box-shadow: 0 0 0 10px rgba(201, 162, 39, 0.1);
-}
-
-.crest::after {
-  content: '';
-  position: absolute;
-  inset: 6px;
-  border: 1px dashed rgba(201, 162, 39, 0.5);
-  border-radius: 50%;
 }
 
 .final-cta .section-title {

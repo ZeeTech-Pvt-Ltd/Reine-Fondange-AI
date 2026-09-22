@@ -65,9 +65,6 @@ export default function Contacts() {
 
           <Reveal delay={120} className="contact__form">
             <div className="invitation">
-              <span className="invitation__ornament">
-                <Icon name="crown-solid" size={24} />
-              </span>
               <RegistrationForm
                 idPrefix="contact"
                 title="Send us a message"
