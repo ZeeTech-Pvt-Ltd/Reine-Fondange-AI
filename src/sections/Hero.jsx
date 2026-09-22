@@ -58,15 +58,6 @@ export default function Hero() {
                 buttonLabel={HERO.formButton}
               />
             </div>
-
-            <div className="seal seal--rating">
-              <b>4.7/5</b>
-              <small>Member rating</small>
-            </div>
-            <div className="seal seal--cold">
-              <b>97%</b>
-              <small>Cold storage</small>
-            </div>
           </div>
         </div>
       </div>
