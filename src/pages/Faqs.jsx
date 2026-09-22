@@ -20,7 +20,7 @@ export default function Faqs() {
         <Reveal>
           <span className="section-label">FAQ</span>
           <h1 className="section-title" style={{ marginBottom: 16 }}>
-            Questions, answered plainly
+            Questions, Answered Plainly
           </h1>
           <p className="section-lead" style={{ marginBottom: 48 }}>
             Everything members ask us most - before you sign up, not after.

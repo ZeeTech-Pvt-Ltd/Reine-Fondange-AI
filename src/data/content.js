@@ -20,7 +20,7 @@ export const NAV_LINKS = [
 ];
 
 export const HERO = {
-  titleLines: ['Reine Fondange AI', 'Trade with royal composure.'],
+  titleLines: ['Reine Fondange AI', 'Trade With Royal Composure.'],
   sub: 'One elegant platform for crypto, forex and equities. Reine Fondange AI pairs around-the-clock market analysis with firm risk guardrails, so you stay calm while the markets move.',
   ctaPrimary: { label: 'Sign Up now', to: '/sign-up' },
   ctaSecondary: { label: 'See how it works', to: '/how-it-works' },
@@ -63,44 +63,44 @@ export const STATS = [
 ];
 
 export const SECURITY = {
-  title: 'Protection woven through every layer',
+  title: 'Protection Woven Through Every Layer',
   lead: 'From the moment you register to the second a withdrawal lands in your bank, every step of your journey is protected by independent safeguards.',
   items: [
     {
       icon: 'shield-check',
-      title: 'Qualified custodians',
+      title: 'Qualified Custodians',
       text: 'Your assets sit with regulated third-party custodians, never on our own books.',
     },
     {
       icon: 'key',
-      title: 'MPC key protection',
+      title: 'MPC Key Protection',
       text: 'Your keys are split across independent parties, so no single point of failure exists.',
     },
     {
       icon: 'snowflake',
-      title: 'Cold storage',
+      title: 'Cold Storage',
       text: 'The large majority of holdings stay offline, out of reach of online threats.',
     },
     {
       icon: 'lock',
-      title: 'MFA withdrawals',
+      title: 'MFA Withdrawals',
       text: 'Every withdrawal needs multi-factor confirmation before a dollar moves.',
     },
     {
       icon: 'eye',
-      title: 'Year-round audits',
+      title: 'Year-Round Audits',
       text: 'Independent firms review our controls and custody arrangements continuously.',
     },
     {
       icon: 'umbrella',
-      title: 'Insurance eligibility',
+      title: 'Insurance Eligibility',
       text: 'Client holdings may qualify for cover through our custodial partners.',
     },
   ],
 };
 
 export const PORTFOLIO = {
-  title: 'A portfolio you can see into, any time',
+  title: 'A Portfolio You Can See Into, Any Time',
   lead: 'Real-time balances, holdings and statements. Everything visible in one calm dashboard, not buried in menus.',
   chart: {
     label: 'Balanced vault · 5 years',
@@ -116,7 +116,7 @@ export const PORTFOLIO = {
 };
 
 export const CALCULATOR = {
-  title: 'Model your own growth plan',
+  title: 'Model Your Own Growth Plan',
   lead: 'Move the sliders to see how a structured plan could compound over time. Figures are illustrative, and returns are never guaranteed.',
   defaults: { deposit: 250, monthly: 200, years: 5, rate: 12 },
   ranges: {
@@ -127,121 +127,121 @@ export const CALCULATOR = {
 };
 
 export const THREE_STEPS = {
-  title: 'From signup to your first trade',
+  title: 'From Signup To Your First Trade',
   lead: 'Six steps, one clear path from registration to your first position.',
   items: [
     {
       icon: 'user',
-      title: 'Create your account',
+      title: 'Create Your Account',
       text: 'Just the basics. Name, email and a phone number.',
     },
     {
       icon: 'mail',
-      title: 'Confirm your email',
+      title: 'Confirm Your Email',
       text: 'One click unlocks the charts, tools and dashboard.',
     },
     {
       icon: 'unlock',
-      title: 'Enter the platform',
+      title: 'Enter The Platform',
       text: 'Fund from A$250. Bigger amounts are optional, and fees are always shown first.',
     },
     {
       icon: 'card',
-      title: 'Add funds your way',
+      title: 'Add Funds Your Way',
       text: 'Bank transfer, e-wallet or card. Whatever suits you.',
     },
     {
       icon: 'sliders',
-      title: 'Set your strategy',
+      title: 'Set Your Strategy',
       text: 'Pick risk levels and markets. AI signals suggest, never override.',
     },
     {
       icon: 'chart',
-      title: 'Explore the markets',
+      title: 'Explore The Markets',
       text: 'Watch live prices and plan your trades in real time.',
     },
   ],
 };
 
 export const TRANSPARENCY = {
-  title: 'Protection you can see for yourself',
+  title: 'Protection You Can See For Yourself',
   lead: 'We publish the things most platforms keep quiet: where your money sits, who audits it, and how you can leave whenever you like.',
   items: [
-    { icon: 'file', title: 'Real-time statements', text: 'Every position, fee and movement, itemised and downloadable, day or night.' },
-    { icon: 'shield', title: 'Segregated client funds', text: 'Your deposits are ring-fenced from company assets, by design and by law.' },
-    { icon: 'search', title: 'Annual third-party audits', text: 'Independent auditors review our systems, custody and capital controls each year.' },
-    { icon: 'unlock', title: 'No lock-in periods', text: 'Withdraw any time. Most requests complete within one business day.' },
+    { icon: 'file', title: 'Real-Time Statements', text: 'Every position, fee and movement, itemised and downloadable, day or night.' },
+    { icon: 'shield', title: 'Segregated Client Funds', text: 'Your deposits are ring-fenced from company assets, by design and by law.' },
+    { icon: 'search', title: 'Annual Third-Party Audits', text: 'Independent auditors review our systems, custody and capital controls each year.' },
+    { icon: 'unlock', title: 'No Lock-In Periods', text: 'Withdraw any time. Most requests complete within one business day.' },
   ],
 };
 
 export const ANALYST = {
-  title: 'Two minds on every move',
+  title: 'Two Minds On Every Move',
   lead: 'Reine Fondange AI pairs a market-scanning engine with human judgement, so no position is taken on automation alone.',
   items: [
     {
       icon: 'cpu',
-      title: 'The engine spots what matters',
+      title: 'The Engine Spots What Matters',
       text: 'Our engine watches markets around the clock and surfaces what deserves attention.',
     },
     {
       icon: 'verified',
-      title: 'A qualified analyst reviews it',
+      title: 'A Qualified Analyst Reviews It',
       text: 'Every flagged position is checked against your risk limits before it enters your account.',
     },
     {
       icon: 'check',
-      title: 'You stay in control',
+      title: 'You Stay In Control',
       text: 'You set your risk profile and can pause, adjust or withdraw at any time.',
     },
   ],
 };
 
 export const FEATURES = {
-  title: 'Key features of the platform',
+  title: 'Key Features Of The Platform',
   lead: 'Seven things traders ask for most, all built in from day one.',
   items: [
     {
       icon: 'cpu',
-      title: 'AI-driven stack',
+      title: 'AI-Driven Stack',
       text: 'Technology that keeps your trading fast, accurate and always on.',
     },
     {
       icon: 'card',
-      title: 'Flexible funding',
+      title: 'Flexible Funding',
       text: 'Debit cards, bank transfers and PayPal. Top up however you like.',
     },
     {
       icon: 'devices',
-      title: 'Trade on any device',
+      title: 'Trade On Any Device',
       text: 'The full platform on desktop, tablet and mobile.',
     },
     {
       icon: 'target',
-      title: 'Up to 85% signal accuracy',
+      title: 'Up To 85% Signal Accuracy',
       text: 'Curated signals help you spot the moves worth acting on.',
     },
     {
       icon: 'globe',
-      title: 'Every instrument',
+      title: 'Every Instrument',
       text: 'Forex, equities, crypto and commodities in one place.',
     },
     {
       icon: 'headset',
-      title: '24/7 support',
+      title: '24/7 Support',
       text: 'Real humans on standby around the clock.',
     },
   ],
 };
 
 export const CTA_BAND = {
-  title: 'Open your Reine Fondange AI account today',
+  title: 'Open Your Reine Fondange AI Account Today',
   lead: 'Registration takes two minutes. Your capital stays protected from the very first dollar.',
   cta: { label: 'Sign Up now', to: '/sign-up' },
   note: 'Capital at risk. Crypto assets are volatile and past performance is no guide to future returns.',
 };
 
 export const TESTIMONIALS = {
-  title: 'What our members say',
+  title: 'What Our Members Say',
   lead: '4.7 stars from 124 member reviews, based on 337 ratings.',
   items: [
     {
@@ -291,123 +291,123 @@ export const TESTIMONIALS = {
 
 export const FAQS = [
   {
-    q: 'What is the minimum deposit?',
+    q: 'What Is The Minimum Deposit?',
     a: 'You can open an account for free and fund it from as little as A$250. There is no obligation to add more, and you can top up whenever you like.',
   },
   {
-    q: 'How quickly can I withdraw?',
+    q: 'How Quickly Can I Withdraw?',
     a: 'Most withdrawal requests are processed within one business day. Every withdrawal needs multi-factor confirmation, and funds are only ever sent to an account in your name.',
   },
   {
-    q: 'How is my capital protected?',
+    q: 'How Is My Capital Protected?',
     a: 'Client assets sit with regulated third-party custodians, segregated from company funds, with most kept in cold storage. Independent auditors review our controls annually.',
   },
   {
-    q: 'How long does registration take?',
+    q: 'How Long Does Registration Take?',
     a: 'The form takes about two minutes. Identity verification usually completes the same day, and you can fund your account as soon as it is approved.',
   },
   {
-    q: 'What fees does Reine Fondange AI charge?',
+    q: 'What Fees Does Reine Fondange AI Charge?',
     a: 'Opening an account is free and there are no hidden charges. Fees are shown before you commit to any product, and the full details live in our Terms of Use.',
   },
   {
-    q: 'Is there a minimum age to join?',
+    q: 'Is There A Minimum Age To Join?',
     a: 'Yes. You must be at least 18 years old and a verified resident of Australia to open an account.',
   },
   {
-    q: 'Which payment methods are accepted?',
+    q: 'Which Payment Methods Are Accepted?',
     a: 'We accept Australian bank transfers and major debit and credit cards. Deposits are credited once cleared, and withdrawals return to your registered account.',
   },
   {
-    q: 'When is support available?',
+    q: 'When Is Support Available?',
     a: 'Our Australia-based support team is online Monday to Friday, 9:00-18:00 AEST. Urgent security issues are monitored around the clock.',
   },
   {
-    q: 'Am I responsible for my own taxes?',
+    q: 'Am I Responsible For My Own Taxes?',
     a: 'Yes. Any gains or income from your holdings are yours to declare. Our one-click tax reports make that easier, but we cannot give tax advice.',
   },
   {
-    q: 'What documents do I need for KYC?',
+    q: 'What Documents Do I Need For KYC?',
     a: 'A government-issued photo ID and proof of Australian address, such as a recent utility bill or bank statement. Verification is encrypted and handled in minutes.',
   },
   {
-    q: 'Do I need investment experience?',
+    q: 'Do I Need Investment Experience?',
     a: 'Not at all. The platform is designed for first-timers, and every product page explains its risks in plain English before you invest.',
   },
   {
-    q: 'Who manages my portfolio?',
+    q: 'Who Manages My Portfolio?',
     a: 'Our market-scanning engine flags opportunities and qualified analysts approve them against your risk profile. You always keep the final say.',
   },
   {
-    q: 'Is Reine Fondange AI regulated?',
+    q: 'Is Reine Fondange AI Regulated?',
     a: 'We operate under ASIC-regulated security standards with regulated custodians and audited controls. Full details are published in our Risk Disclosure.',
   },
   {
-    q: 'Can I add funds later?',
+    q: 'Can I Add Funds Later?',
     a: 'Yes. You can top up any time by bank transfer or card, or set a recurring plan so it happens automatically.',
   },
 ];
 
 export const BENEFITS = {
-  title: 'Why members stay with Reine Fondange AI',
+  title: 'Why Members Stay With Reine Fondange AI',
   lead: 'Modern traders choose us for protection, clarity, AI tools and a clean interface.',
   items: [
     {
       icon: 'shield-check',
-      title: 'Bank-grade protection',
+      title: 'Bank-Grade Protection',
       text: 'Encrypted from login to withdrawal, with your funds held apart from ours.',
     },
     {
       icon: 'user',
-      title: 'Trading that fits you',
+      title: 'Trading That Fits You',
       text: 'Risk settings, markets and pace, all shaped around your goals.',
     },
     {
       icon: 'cpu',
-      title: 'Smarter AI tools',
+      title: 'Smarter AI Tools',
       text: 'Analytics that surface what matters instead of burying you in noise.',
     },
     {
       icon: 'zap',
-      title: 'Automation that runs all day',
+      title: 'Automation That Runs All Day',
       text: 'Bots keep working around the clock, following rules you set.',
     },
     {
       icon: 'chart',
-      title: 'Signals you can act on',
+      title: 'Signals You Can Act On',
       text: 'Clear, timely alerts for the moves worth your attention.',
     },
     {
       icon: 'devices',
-      title: 'An interface that never fights you',
+      title: 'An Interface That Never Fights You',
       text: 'Clean screens and simple flows, from first click to daily use.',
     },
   ],
 };
 
 export const STRESS_BAND = {
-  title: 'Trading without the stress',
+  title: 'Trading Without The Stress',
   copy: 'Hold Bitcoin, Ethereum and Dogecoin with confidence. Our tools handle the noise while you keep the controls.',
   cta: { label: 'Get Started', to: '/sign-up' },
 };
 
 export const GLOBAL = {
-  title: 'Built to grow worldwide',
+  title: 'Built To Grow Worldwide',
   lead: 'Speed, precision and reach, wherever you trade from.',
   items: [
     {
       icon: 'globe',
-      title: 'One login, every market',
+      title: 'One Login, Every Market',
       text: 'Crypto, forex, stocks and commodities together under one roof.',
     },
     {
       icon: 'zap',
-      title: 'Orders that fill fast',
+      title: 'Orders That Fill Fast',
       text: 'Low-latency execution keeps your entries and exits sharp.',
     },
     {
       icon: 'chart',
-      title: 'Analytics in real time',
+      title: 'Analytics In Real Time',
       text: 'Live feeds and indicators update as the market moves.',
     },
   ],
@@ -419,12 +419,12 @@ export const EXCHANGES = {
 };
 
 export const PAYMENTS = {
-  title: 'We accept payments from all over the world',
+  title: 'We Accept Payments From All Over The World',
   methods: ['Visa', 'Mastercard', 'PayPal', 'Bank transfer'],
 };
 
 export const ABOUT_SUMMARY = {
-  title: 'About the platform',
+  title: 'About The Platform',
   lead: 'One international platform, one unified workflow. Low-latency performance, layered security and a design built for beginners and advanced users alike.',
   groups: [
     {
@@ -479,7 +479,7 @@ export const FOOTER = {
 };
 
 export const CONTACTS = {
-  title: 'Talk to a human',
+  title: 'Talk To A Human',
   lead: 'Questions before you join? Our Australia-based support team is online Monday to Friday, 9:00-18:00 AEST.',
   email: 'support@reinefondange-ai.com',
   support: 'Mon-Fri 9:00-18:00 AEST',

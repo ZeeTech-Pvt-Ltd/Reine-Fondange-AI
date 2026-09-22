@@ -8,17 +8,17 @@ import { STATS } from '../data/content.js';
 const PILLARS = [
   {
     icon: 'shield-check',
-    title: 'Security first',
+    title: 'Security First',
     text: 'Every decision starts from one question: what keeps member assets safest? Custody, encryption and controls follow from there.',
   },
   {
     icon: 'eye',
-    title: 'Radical transparency',
+    title: 'Radical Transparency',
     text: 'Real-time statements, published fees and third-party audits. If we would not show it to our own families, we do not ship it.',
   },
   {
     icon: 'users',
-    title: 'Built for humans',
+    title: 'Built For Humans',
     text: 'Plain English, honest risk notes and support from real people. Trading platforms should calm you down, not hype you up.',
   },
 ];
@@ -38,7 +38,7 @@ export default function AboutUs() {
         <Reveal>
           <span className="section-label">About us</span>
           <h1 className="section-title" style={{ maxWidth: 720, marginBottom: 20 }}>
-            Trading should feel <em>composed, clear and fair</em> - for everyone
+            Trading Should Feel <em>Composed, Clear And Fair</em> - For Everyone
           </h1>
           <p className="section-lead" style={{ maxWidth: 720 }}>
             Reine Fondange AI was founded on a simple frustration: trading platforms were either
@@ -60,7 +60,7 @@ export default function AboutUs() {
       </div>
 
       <div className="container" style={{ marginTop: 64 }}>
-        <SectionHead title="What we stand on" lead="Three principles run through every product, page and policy." />
+        <SectionHead title="What We Stand On" lead="Three principles run through every product, page and policy." />
         <div className="cards-grid cards-grid--3">
           {PILLARS.map((p, i) => (
             <Reveal className="card" delay={i * 70} key={p.title}>

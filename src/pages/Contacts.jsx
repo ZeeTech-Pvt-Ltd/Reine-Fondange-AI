@@ -67,7 +67,7 @@ export default function Contacts() {
             <div className="invitation">
               <RegistrationForm
                 idPrefix="contact"
-                title="Send us a message"
+                title="Send Us A Message"
                 buttonLabel="Send Message"
               />
             </div>

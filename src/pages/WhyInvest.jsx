@@ -19,7 +19,7 @@ export default function WhyInvest() {
         <Reveal>
           <span className="section-label">Why invest with us</span>
           <h1 className="section-title" style={{ maxWidth: 720, marginBottom: 20 }}>
-            One account, <em>guarded on every side</em>
+            One Account, <em>Guarded On Every Side</em>
           </h1>
           <p className="section-lead" style={{ maxWidth: 720 }}>
             Most platforms ask you to trust them. We built Reine Fondange AI so you do not have
@@ -44,7 +44,7 @@ export default function WhyInvest() {
         <Reveal>
           <span className="section-label">More reasons</span>
           <h2 className="section-title" style={{ maxWidth: 720, marginBottom: 20 }}>
-            Everything your trading needs, in one account
+            Everything Your Trading Needs, In One Account
           </h2>
         </Reveal>
         <div className="cards-grid cards-grid--3" style={{ marginTop: 40 }}>

@@ -8,7 +8,7 @@ import { SITE } from '../data/content.js';
 
 export default function RegistrationForm({
   idPrefix = 'hero',
-  title = 'Create your account',
+  title = 'Create Your Account',
   notice = '',
   buttonLabel = 'Sign Up now',
   showConsent = true,

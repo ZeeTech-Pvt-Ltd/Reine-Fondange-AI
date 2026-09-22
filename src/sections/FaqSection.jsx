@@ -14,7 +14,7 @@ export default function FaqSection() {
     <section className="section section--surface">
       <div className="container" style={{ maxWidth: 860 }}>
         <SectionHead
-          title="Questions, answered plainly"
+          title="Questions, Answered Plainly"
           lead="The five things members ask most - before you sign up, not after."
         />
         <Reveal>

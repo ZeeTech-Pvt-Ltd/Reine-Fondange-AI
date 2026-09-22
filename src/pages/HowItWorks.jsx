@@ -20,7 +20,7 @@ export default function HowItWorks() {
         <Reveal>
           <span className="section-label">How it works</span>
           <h1 className="section-title" style={{ maxWidth: 720, marginBottom: 20 }}>
-            From first click to a <em>guided portfolio</em> in six steps
+            From First Click To A <em>Guided Portfolio</em> In Six Steps
           </h1>
           <p className="section-lead" style={{ maxWidth: 720 }}>
             No spreadsheets, no jargon, no staring at charts all day. Reine Fondange AI handles

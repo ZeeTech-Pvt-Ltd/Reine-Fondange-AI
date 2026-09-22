@@ -22,7 +22,7 @@ export default function SignIn() {
             <Icon name="lock" size={26} />
           </span>
           <h1 className="section-title" style={{ fontSize: 26, marginBottom: 12 }}>
-            Secure sign-in
+            Secure Sign-In
           </h1>
           <p className="card__text">
             After registration you receive a secure sign-in link by email. Members sign in

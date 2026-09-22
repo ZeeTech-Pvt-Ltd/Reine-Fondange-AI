@@ -23,7 +23,7 @@ export default function SignUp() {
       </div>
       <div className="container" style={{ maxWidth: 520 }}>
         <h1 className="section-title" style={{ textAlign: 'center', fontSize: 28, marginBottom: 32 }}>
-          Open your Reine Fondange AI account
+          Open Your Reine Fondange AI Account
         </h1>
         <div className="invitation">
           <RegistrationForm idPrefix="signup" />

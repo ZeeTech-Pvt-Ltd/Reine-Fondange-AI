@@ -27,7 +27,7 @@ export default function ThankYou() {
             <Icon name="check" size={30} />
           </span>
           <h1 className="section-title" style={{ fontSize: 28, marginBottom: 12 }}>
-            Account request received
+            Account Request Received
           </h1>
           <p className="card__text">
             Thank you for choosing Reine Fondange AI. Your details are on their way to our
