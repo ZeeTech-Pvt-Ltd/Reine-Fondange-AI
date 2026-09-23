@@ -14,7 +14,7 @@ export default function Hero() {
           <div className="hero__copy">
             <span className="section-label">AI-guided trading · Australia</span>
             <h1 className="hero__title">
-              <span className="hero__brand">{HERO.titleLines[0]}</span>
+              {HERO.titleLines[0]}
               <br />
               {HERO.titleLines[1]}
             </h1>

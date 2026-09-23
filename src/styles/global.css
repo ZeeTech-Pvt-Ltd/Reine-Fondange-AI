@@ -164,10 +164,7 @@ button {
 .section-title em {
   font-style: italic;
   font-weight: 500;
-  background: linear-gradient(100deg, var(--wine-bright), var(--wine-deep));
-  -webkit-background-clip: text;
-  background-clip: text;
-  color: transparent;
+  color: var(--wine);
 }
 
 .section-lead {
@@ -420,13 +417,6 @@ button {
   line-height: 1.08;
   letter-spacing: -0.01em;
   margin-bottom: 22px;
-}
-
-.hero__brand {
-  background: linear-gradient(105deg, #2ee6a0, #16c784 45%, #7ee2b8);
-  -webkit-background-clip: text;
-  background-clip: text;
-  color: transparent;
 }
 
 .hero__sub {
