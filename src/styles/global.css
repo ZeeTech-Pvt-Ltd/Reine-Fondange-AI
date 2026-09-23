@@ -2,7 +2,7 @@
    Reine Fondange AI - dark trading design system
    Deep navy-charcoal base, emerald "market up" accent,
    antique-gold ornaments, red for "market down".
-   Cormorant Garamond serif display, Inter body, IBM Plex Mono labels.
+   Inter for headings and body, IBM Plex Mono labels.
    Token names are legacy from earlier iterations: --wine* now
    carry the emerald palette, --cream the light band text.
    ============================================================ */
@@ -34,7 +34,7 @@
   --red-soft: #f2a29e;
   --radius: 6px;
   --container: 1224px;
-  --font-display: 'Cormorant Garamond', Georgia, serif;
+  --font-display: 'Inter', system-ui, sans-serif;
   --font-body: 'Inter', system-ui, sans-serif;
   --font-mono: 'IBM Plex Mono', ui-monospace, monospace;
 }
@@ -155,9 +155,9 @@ button {
 
 .section-title {
   font-family: var(--font-display);
-  font-size: clamp(2rem, 3.6vw, 2.9rem);
-  font-weight: 600;
-  line-height: 1.15;
+  font-size: clamp(1.6rem, 2.8vw, 2.1rem);
+  font-weight: 700;
+  line-height: 1.2;
   letter-spacing: -0.01em;
 }
 
@@ -301,8 +301,8 @@ button {
 
 .logo__text {
   font-family: var(--font-display);
-  font-size: 20px;
-  font-weight: 600;
+  font-size: 16px;
+  font-weight: 700;
   line-height: 1.2;
 }
 
@@ -412,9 +412,9 @@ button {
 
 .hero__title {
   font-family: var(--font-display);
-  font-size: clamp(2.2rem, 4vw, 3.2rem);
-  font-weight: 600;
-  line-height: 1.08;
+  font-size: clamp(1.9rem, 3.4vw, 2.6rem);
+  font-weight: 700;
+  line-height: 1.15;
   letter-spacing: -0.01em;
   margin-bottom: 22px;
 }
@@ -493,8 +493,8 @@ button {
 }
 
 .invitation .form__title {
-  font-size: 25px;
-  font-weight: 500;
+  font-size: 19px;
+  font-weight: 700;
   font-style: italic;
   text-align: center;
   margin-bottom: 4px;
@@ -524,8 +524,8 @@ button {
 
 .form__title {
   font-family: var(--font-display);
-  font-size: 22px;
-  font-weight: 600;
+  font-size: 18px;
+  font-weight: 700;
 }
 
 .form__notice {
@@ -819,9 +819,9 @@ button {
 
 .stats__value {
   font-family: var(--font-display);
-  font-size: clamp(2rem, 3.4vw, 2.7rem);
-  font-weight: 600;
-  line-height: 1.1;
+  font-size: clamp(1.7rem, 2.8vw, 2.2rem);
+  font-weight: 700;
+  line-height: 1.15;
   letter-spacing: -0.01em;
   background: linear-gradient(100deg, var(--wine-bright), var(--wine-deep));
   -webkit-background-clip: text;
@@ -910,8 +910,8 @@ button {
 
 .card__title {
   font-family: var(--font-display);
-  font-size: 19px;
-  font-weight: 600;
+  font-size: 17px;
+  font-weight: 700;
   margin-bottom: 8px;
 }
 
@@ -970,8 +970,8 @@ button {
 
 .editorial__num {
   font-family: var(--font-display);
-  font-size: 42px;
-  font-weight: 500;
+  font-size: 30px;
+  font-weight: 700;
   line-height: 1;
   color: rgba(46, 230, 160, 0.2);
   transition: color 0.2s ease;
@@ -984,8 +984,8 @@ button {
 
 .editorial__row h3 {
   font-family: var(--font-display);
-  font-size: 21px;
-  font-weight: 600;
+  font-size: 18px;
+  font-weight: 700;
   margin-bottom: 6px;
 }
 
@@ -1081,8 +1081,8 @@ button {
 
 .coin-plate__id {
   font-family: var(--font-display);
-  font-size: 20px;
-  font-weight: 600;
+  font-size: 18px;
+  font-weight: 700;
   line-height: 1.3;
 }
 
@@ -1170,8 +1170,8 @@ button {
 
 .ring-cols__col h3 {
   font-family: var(--font-display);
-  font-size: 21px;
-  font-weight: 600;
+  font-size: 18px;
+  font-weight: 700;
   margin-bottom: 8px;
 }
 
@@ -1284,8 +1284,8 @@ button {
 
 .timeline__row h3 {
   font-family: var(--font-display);
-  font-size: 21px;
-  font-weight: 600;
+  font-size: 18px;
+  font-weight: 700;
   margin-bottom: 6px;
 }
 
@@ -1328,8 +1328,8 @@ button {
 
 .payments__title {
   font-family: var(--font-display);
-  font-size: 20px;
-  font-weight: 600;
+  font-size: 17px;
+  font-weight: 700;
   margin-bottom: 22px;
 }
 
@@ -1411,8 +1411,8 @@ button {
 
 .quote-card__mark {
   font-family: var(--font-display);
-  font-size: 58px;
-  font-weight: 600;
+  font-size: 44px;
+  font-weight: 700;
   line-height: 0.5;
   color: rgba(46, 230, 160, 0.3);
   height: 18px;
@@ -1511,7 +1511,7 @@ button {
   text-align: left;
   font-family: var(--font-display);
   font-weight: 600;
-  font-size: 19px;
+  font-size: 16.5px;
   color: var(--ink);
   padding: 20px 4px;
 }
@@ -1569,8 +1569,8 @@ button {
 
 .ledger__col h3 {
   font-family: var(--font-display);
-  font-size: 22px;
-  font-weight: 600;
+  font-size: 18px;
+  font-weight: 700;
   color: var(--wine-deep);
   display: flex;
   align-items: center;
@@ -1861,8 +1861,8 @@ button {
 
 .legal__section h2 {
   font-family: var(--font-display);
-  font-size: 21px;
-  font-weight: 600;
+  font-size: 18px;
+  font-weight: 700;
 }
 
 .legal__section p {
@@ -1943,8 +1943,8 @@ button {
   top: 10px;
   right: 18px;
   font-family: var(--font-display);
-  font-size: 46px;
-  font-weight: 500;
+  font-size: 36px;
+  font-weight: 700;
   color: rgba(46, 230, 160, 0.14);
   line-height: 1;
   pointer-events: none;

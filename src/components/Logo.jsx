@@ -13,7 +13,7 @@ export default function Logo() {
         x="16"
         y="22.5"
         textAnchor="middle"
-        fontFamily="'Cormorant Garamond', Georgia, serif"
+        fontFamily="Inter, system-ui, sans-serif"
         fontWeight="700"
         fontSize="20"
         fill="url(#logo-gold)"
