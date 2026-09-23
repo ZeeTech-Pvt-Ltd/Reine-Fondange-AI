@@ -85,7 +85,8 @@ export default function RegistrationForm({
         // double-mount destroys the first instance before its fetch resolves).
         if (code && input.value.trim() === '' && itiRef.current === iti) {
           try {
-            iti.setCountry(code);
+            // v29 renamed setCountry to setSelectedCountry
+            iti.setSelectedCountry(code);
           } catch {
             /* instance was torn down mid-flight */
           }
