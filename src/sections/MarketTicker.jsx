@@ -68,7 +68,7 @@ export default function MarketTicker() {
       <div className="ticker__viewport">
         {items.map((t, i) => (
           <span className="ticker__item" key={i}>
-            <img className="ticker__coin" src={t.icon} alt="" loading="lazy" />
+            <img className="ticker__coin" src={t.icon} alt={`${t.k} logo`} loading="lazy" />
             <b>{t.k}</b>
             <span className="ticker__price">{fmt(t.price, t.d)}</span>
             <span className={`ticker__change ${t.dir}`}>{t.change}</span>
