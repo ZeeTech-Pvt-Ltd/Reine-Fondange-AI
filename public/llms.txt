@@ -1,0 +1,26 @@
+# Reine Fondange AI
+
+> Reine Fondange AI is an AI-guided trading platform for verified Australian residents. Crypto, forex and equities with curated signals, risk guardrails and bank-grade security.
+
+## Key pages
+
+- [Home](https://reinefondange-ai.com/): platform overview, live market ticker, registration form
+- [How It Works](https://reinefondange-ai.com/how-it-works): the six-step path from signup to first trade
+- [Why Invest](https://reinefondange-ai.com/why-invest): custody, security and platform safeguards
+- [FAQ](https://reinefondange-ai.com/faq): deposits, withdrawals, KYC, fees and more
+- [About Us](https://reinefondange-ai.com/about-us): company principles and stats
+
+## Legal
+
+- [Privacy Policy](https://reinefondange-ai.com/privacy-policy)
+- [Terms of Use](https://reinefondange-ai.com/terms-of-use)
+- [Risk Disclosure](https://reinefondange-ai.com/risk-disclosure)
+
+## Contact
+
+- Email: support@reinefondange-ai.com
+- Support hours: Mon-Fri 9:00-18:00 AEST
+
+## Important
+
+Trading involves risk. Crypto assets are volatile and can fall as well as rise. Past performance is no guide to future returns. Nothing on this site is financial advice.
