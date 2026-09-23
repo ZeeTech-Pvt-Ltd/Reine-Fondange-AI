@@ -6,19 +6,16 @@
   },
   "entries": [
     {
-      "identifier": "urn:ai:reinefondange-ai.com:knowledge:site",
-      "displayName": "Reine Fondange AI website",
-      "type": "text/html",
-      "url": "https://reinefondange-ai.com/",
-      "description": "Reine Fondange AI is an AI-guided trading platform for verified Australian residents. Crypto, forex and equities with curated signals, risk guardrails and bank-grade security.",
-      "tags": ["trading", "crypto", "forex", "australia"]
-    },
-    {
-      "identifier": "urn:ai:reinefondange-ai.com:knowledge:llms-txt",
+      "identifier": "urn:air:reinefondange-ai.com:knowledge:llms-txt",
       "displayName": "Reine Fondange AI knowledge index (llms.txt)",
-      "type": "text/plain",
+      "type": "text/markdown; profile=\"urn:air:agent-skills\"",
       "url": "https://reinefondange-ai.com/llms.txt",
-      "description": "Curated index of Reine Fondange AI pages for AI agents, including the platform overview, FAQ, legal documents and contact information."
+      "description": "Curated index of Reine Fondange AI pages for AI agents, including the platform overview, FAQ, legal documents and contact information.",
+      "representativeQueries": [
+        "What is the minimum deposit for Reine Fondange AI?",
+        "Is Reine Fondange AI regulated in Australia?",
+        "How do withdrawals from Reine Fondange AI work?"
+      ]
     }
   ]
 }
