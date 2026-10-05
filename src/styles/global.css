@@ -1387,10 +1387,87 @@ button {
   color: var(--gold-light);
 }
 
-.quote-grid {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
+.quote-slider {
+  position: relative;
+}
+
+/* Horizontal snap track; --slides is set per breakpoint below. */
+.quote-track {
+  --slides: 3;
+  display: flex;
   gap: 24px;
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+
+.quote-track::-webkit-scrollbar {
+  display: none;
+}
+
+.quote-track > .quote-card {
+  flex: 0 0 calc((100% - 24px * (var(--slides) - 1)) / var(--slides));
+  scroll-snap-align: start;
+}
+
+.quote-nav {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 18px;
+  margin-top: 28px;
+}
+
+.quote-nav__arrow {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 42px;
+  height: 42px;
+  border-radius: 50%;
+  border: 1px solid var(--gold-line);
+  background: transparent;
+  color: var(--gold);
+  cursor: pointer;
+  transition: border-color 0.18s ease, color 0.18s ease, background 0.18s ease,
+    opacity 0.18s ease;
+}
+
+.quote-nav__arrow:hover:not(:disabled) {
+  border-color: var(--gold-bright);
+  color: var(--gold-light);
+  background: rgba(212, 160, 23, 0.06);
+}
+
+.quote-nav__arrow:disabled {
+  opacity: 0.35;
+  cursor: default;
+}
+
+.quote-dots {
+  display: flex;
+  gap: 8px;
+}
+
+.quote-dot {
+  width: 8px;
+  height: 8px;
+  padding: 0;
+  border: none;
+  border-radius: 50%;
+  background: var(--line);
+  cursor: pointer;
+  transition: background 0.18s ease, transform 0.18s ease;
+}
+
+.quote-dot:hover {
+  background: var(--wine-muted);
+}
+
+.quote-dot--active {
+  background: var(--gold-bright);
+  transform: scale(1.25);
 }
 
 .quote-card {
@@ -1467,14 +1544,14 @@ button {
 }
 
 @media (max-width: 1080px) {
-  .quote-grid {
-    grid-template-columns: 1fr 1fr;
+  .quote-track {
+    --slides: 2;
   }
 }
 
 @media (max-width: 640px) {
-  .quote-grid {
-    grid-template-columns: 1fr;
+  .quote-track {
+    --slides: 1;
   }
 }
 

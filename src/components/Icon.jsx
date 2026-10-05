@@ -123,6 +123,8 @@ const PATHS = {
   'arrow-right': <path d="M4 12h16M14 6l6 6-6 6" />,
   check: <path d="M4.5 12.5l5 5 10-11" />,
   chevron: <path d="M6 9l6 6 6-6" />,
+  'chevron-left': <path d="M15 6l-6 6 6 6" />,
+  'chevron-right': <path d="M9 6l6 6-6 6" />,
   menu: <path d="M4 7h16M4 12h16M4 17h16" />,
   close: <path d="M6 6l12 12M18 6L6 18" />,
   star: (
