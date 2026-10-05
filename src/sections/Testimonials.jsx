@@ -28,7 +28,14 @@ export default function Testimonials() {
               </div>
               <p className="quote-card__text">{t.text}</p>
               <div className="quote-card__meta">
-                <span className="quote-card__avatar">{t.name.charAt(0)}</span>
+                <img
+                  className="quote-card__avatar"
+                  src={t.photo}
+                  alt={`Portrait of ${t.name}`}
+                  loading="lazy"
+                  width="40"
+                  height="40"
+                />
                 <span>
                   <span className="quote-card__name">{t.name}</span>
                   <span className="quote-card__city">

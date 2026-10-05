@@ -249,6 +249,7 @@ export const TESTIMONIALS = {
       city: 'Sydney',
       since: '2023',
       stars: 5,
+      photo: '/testimonials/charlotte.jpg',
       text: 'I moved part of my savings across in an afternoon. The dashboard made the whole thing feel calm, not complicated.',
     },
     {
@@ -256,6 +257,7 @@ export const TESTIMONIALS = {
       city: 'Melbourne',
       since: '2024',
       stars: 5,
+      photo: '/testimonials/william.jpg',
       text: 'Recurring buys took the emotion out of it. I check once a month and nothing is ever on fire.',
     },
     {
@@ -263,6 +265,7 @@ export const TESTIMONIALS = {
       city: 'Brisbane',
       since: '2023',
       stars: 5,
+      photo: '/testimonials/amelia.jpg',
       text: 'My first withdrawal landed in my bank the same day. That is what convinced me the platform was safe.',
     },
     {
@@ -270,6 +273,7 @@ export const TESTIMONIALS = {
       city: 'Perth',
       since: '2024',
       stars: 4,
+      photo: '/testimonials/henry.jpg',
       text: 'Support walked me through verification on a Saturday evening. Genuinely impressed by the patience.',
     },
     {
@@ -277,6 +281,7 @@ export const TESTIMONIALS = {
       city: 'Adelaide',
       since: '2023',
       stars: 5,
+      photo: '/testimonials/isabelle.jpg',
       text: 'The one-click tax report saved my accountant half a day. Worth it for that alone.',
     },
     {
@@ -284,6 +289,7 @@ export const TESTIMONIALS = {
       city: 'Hobart',
       since: '2024',
       stars: 4,
+      photo: '/testimonials/oliver.jpg',
       text: 'Started with A$250 and stayed for the signals. My balance grows quietly in the background.',
     },
   ],
