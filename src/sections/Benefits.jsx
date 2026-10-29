@@ -1,4 +1,4 @@
-import { Link } from 'react-router';
+import Link from 'next/link';
 import Reveal from '../components/Reveal.jsx';
 import Icon from '../components/Icon.jsx';
 import { BENEFITS } from '../data/content.js';
@@ -13,7 +13,7 @@ export default function Benefits() {
             <span className="section-label">Why members stay</span>
             <h2 className="section-title">{BENEFITS.title}</h2>
             <p className="section-lead">{BENEFITS.lead}</p>
-            <Link className="btn btn--cyan" to="/sign-up">
+            <Link className="btn btn--cyan" href="/sign-up">
               Sign Up now
               <Icon name="arrow-right" size={17} />
             </Link>

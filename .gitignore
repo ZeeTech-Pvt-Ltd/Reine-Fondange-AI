@@ -29,3 +29,6 @@ Thumbs.db
 test-results/
 playwright-report/
 .claude/
+
+# next.js
+.next/

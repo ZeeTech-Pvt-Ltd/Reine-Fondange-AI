@@ -1,3 +1,5 @@
+'use client';
+
 import { useEffect, useRef, useState } from 'react';
 import { MARKET_TICKER } from '../data/content.js';
 

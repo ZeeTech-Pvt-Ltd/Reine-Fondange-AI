@@ -1,17 +1,24 @@
+'use client';
+
 import { useState } from 'react';
-import { Link, NavLink } from 'react-router';
+import Link from 'next/link';
+import { usePathname } from 'next/navigation';
 import Logo from './Logo.jsx';
 import Icon from './Icon.jsx';
 import { NAV_LINKS } from '../data/content.js';
-import { prefetchPage } from '../App.jsx';
+
+// Replicates NavLink semantics: exact match for home, prefix match otherwise.
+const isActivePath = (pathname, to) =>
+  to === '/' ? pathname === '/' : pathname.startsWith(to);
 
 export default function Header() {
   const [open, setOpen] = useState(false);
+  const pathname = usePathname();
 
   return (
     <header className="header">
       <div className="container header__inner">
-        <Link to="/" className="logo" onClick={() => setOpen(false)}>
+        <Link href="/" className="logo" onClick={() => setOpen(false)}>
           <Logo />
           <span className="logo__text">
             Reine Fondange <span className="logo__ai">AI</span>
@@ -20,20 +27,18 @@ export default function Header() {
 
         <nav className="nav" aria-label="Main navigation">
           {NAV_LINKS.map((l) => (
-            <NavLink
+            <Link
               key={l.to}
-              to={l.to}
-              end={l.to === '/'}
-              onMouseEnter={() => prefetchPage(l.to)}
-              className={({ isActive }) => `nav__link${isActive ? ' is-active' : ''}`}
+              href={l.to}
+              className={`nav__link${isActivePath(pathname, l.to) ? ' is-active' : ''}`}
             >
               {l.label}
-            </NavLink>
+            </Link>
           ))}
         </nav>
 
         <div className="header__actions">
-          <Link className="btn btn--cyan btn--sm" to="/sign-up">
+          <Link className="btn btn--cyan btn--sm" href="/sign-up">
             Sign Up now
           </Link>
           <button
@@ -48,18 +53,16 @@ export default function Header() {
 
       <div className={`mobile-menu${open ? ' is-open' : ''}`}>
         {NAV_LINKS.map((l) => (
-          <NavLink
+          <Link
             key={l.to}
-            to={l.to}
-            end={l.to === '/'}
+            href={l.to}
             onClick={() => setOpen(false)}
-            onMouseEnter={() => prefetchPage(l.to)}
-            className={({ isActive }) => (isActive ? 'is-active' : '')}
+            className={isActivePath(pathname, l.to) ? 'is-active' : ''}
           >
             {l.label}
-          </NavLink>
+          </Link>
         ))}
-        <Link className="btn btn--cyan" to="/sign-up" onClick={() => setOpen(false)}>
+        <Link className="btn btn--cyan" href="/sign-up" onClick={() => setOpen(false)}>
           Sign Up now
         </Link>
       </div>

@@ -1,4 +1,4 @@
-import { Link } from 'react-router';
+import Link from 'next/link';
 import Icon from '../components/Icon.jsx';
 import RegistrationForm from '../components/RegistrationForm.jsx';
 import { HERO } from '../data/content.js';
@@ -22,11 +22,11 @@ export default function Hero() {
             <p className="hero__sub">{HERO.sub}</p>
 
             <div className="hero__cta">
-              <Link className="btn btn--cyan" to={HERO.ctaPrimary.to}>
+              <Link className="btn btn--cyan" href={HERO.ctaPrimary.to}>
                 {HERO.ctaPrimary.label}
                 <Icon name="arrow-right" size={17} />
               </Link>
-              <Link className="btn btn--ghost" to={HERO.ctaSecondary.to}>
+              <Link className="btn btn--ghost" href={HERO.ctaSecondary.to}>
                 {HERO.ctaSecondary.label}
               </Link>
             </div>

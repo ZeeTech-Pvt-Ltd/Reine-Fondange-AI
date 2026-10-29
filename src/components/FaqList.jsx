@@ -1,3 +1,5 @@
+'use client';
+
 import { useState } from 'react';
 import Icon from './Icon.jsx';
 import { FAQS } from '../data/content.js';

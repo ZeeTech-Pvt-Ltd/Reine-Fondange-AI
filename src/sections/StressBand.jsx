@@ -1,4 +1,4 @@
-import { Link } from 'react-router';
+import Link from 'next/link';
 import Reveal from '../components/Reveal.jsx';
 import { STRESS_BAND } from '../data/content.js';
 
@@ -37,7 +37,7 @@ export default function StressBand() {
         </div>
 
         <Reveal style={{ textAlign: 'center', marginTop: 44 }}>
-          <Link className="btn btn--cyan" to={STRESS_BAND.cta.to}>
+          <Link className="btn btn--cyan" href={STRESS_BAND.cta.to}>
             {STRESS_BAND.cta.label}
           </Link>
         </Reveal>

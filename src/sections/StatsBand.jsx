@@ -1,3 +1,5 @@
+'use client';
+
 import { useEffect, useRef, useState } from 'react';
 import Reveal from '../components/Reveal.jsx';
 import { STATS } from '../data/content.js';

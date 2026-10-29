@@ -1,4 +1,5 @@
-import LegalPage from '../components/LegalPage.jsx';
+import LegalPage from '../../src/components/LegalPage.jsx';
+import BreadcrumbSchema from '../../src/components/BreadcrumbSchema.jsx';
 
 const CONTENT = {
   title: 'Privacy Policy',
@@ -50,6 +51,36 @@ const CONTENT = {
   ],
 };
 
+export const metadata = {
+  title: 'Privacy Policy | Reine Fondange AI',
+  description:
+    'Privacy Policy for the Reine Fondange AI trading platform - secure crypto investing for Australia.',
+  keywords:
+    'Reine Fondange AI, AI trading platform, crypto trading Australia, AI trading signals, secure trading platform, Reine Fondange AI privacy policy, data protection Australia',
+  openGraph: {
+    title: 'Privacy Policy | Reine Fondange AI',
+    description:
+      'Privacy Policy for the Reine Fondange AI trading platform - secure crypto investing for Australia.',
+    url: '/privacy-policy',
+    type: 'website',
+    siteName: 'Reine Fondange AI',
+    locale: 'en_AU',
+    images: ['/og-image.svg'],
+  },
+  twitter: {
+    title: 'Privacy Policy | Reine Fondange AI',
+    description:
+      'Privacy Policy for the Reine Fondange AI trading platform - secure crypto investing for Australia.',
+    images: ['/og-image.svg'],
+  },
+  alternates: { canonical: '/privacy-policy' },
+};
+
 export default function PrivacyPolicy() {
-  return <LegalPage content={CONTENT} path="/privacy-policy" />;
+  return (
+    <>
+      <BreadcrumbSchema path="/privacy-policy" label="Privacy Policy" />
+      <LegalPage content={CONTENT} />
+    </>
+  );
 }

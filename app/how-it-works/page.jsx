@@ -1,0 +1,88 @@
+import Link from 'next/link';
+import Reveal from '../../src/components/Reveal.jsx';
+import Icon from '../../src/components/Icon.jsx';
+import BreadcrumbSchema from '../../src/components/BreadcrumbSchema.jsx';
+import { AnalystFlow } from '../../src/sections/Analyst.jsx';
+import { THREE_STEPS, ANALYST } from '../../src/data/content.js';
+
+export const metadata = {
+  title: 'How It Works | Reine Fondange AI - Six Steps to Trading',
+  description:
+    'Open your Reine Fondange AI account in two minutes, fund from A$250 and let guided trading do the heavy lifting - with human oversight on every move.',
+  keywords:
+    'Reine Fondange AI, AI trading platform, crypto trading Australia, AI trading signals, secure trading platform, how Reine Fondange AI works, open trading account Australia, AI trading explained',
+  openGraph: {
+    title: 'How It Works | Reine Fondange AI - Six Steps to Trading',
+    description:
+      'Open your Reine Fondange AI account in two minutes, fund from A$250 and let guided trading do the heavy lifting - with human oversight on every move.',
+    url: '/how-it-works',
+    type: 'website',
+    siteName: 'Reine Fondange AI',
+    locale: 'en_AU',
+    images: ['/og-image.svg'],
+  },
+  twitter: {
+    title: 'How It Works | Reine Fondange AI - Six Steps to Trading',
+    description:
+      'Open your Reine Fondange AI account in two minutes, fund from A$250 and let guided trading do the heavy lifting - with human oversight on every move.',
+    images: ['/og-image.svg'],
+  },
+  alternates: { canonical: '/how-it-works' },
+};
+
+export default function HowItWorks() {
+  return (
+    <>
+      <BreadcrumbSchema path="/how-it-works" label="How It Works" />
+      <div className="section section--deep">
+        <div className="container">
+          <Reveal>
+            <span className="section-label">How it works</span>
+            <h1 className="section-title" style={{ maxWidth: 720, marginBottom: 20 }}>
+              From First Click To A <em>Guided Portfolio</em> In Six Steps
+            </h1>
+            <p className="section-lead" style={{ maxWidth: 720 }}>
+              No spreadsheets, no jargon, no staring at charts all day. Reine Fondange AI handles
+              the complexity - you handle the easy part.
+            </p>
+          </Reveal>
+
+          <div className="hiw-steps" style={{ marginTop: 56 }}>
+            {THREE_STEPS.items.map((s, i) => (
+              <Reveal className="hiw-steps__item" delay={i * 90} key={s.title}>
+                <span className="hiw-steps__num">{String(i + 1).padStart(2, '0')}</span>
+                <span className="card__icon">
+                  <Icon name={s.icon} size={24} />
+                </span>
+                <h3 className="card__title">{s.title}</h3>
+                <p className="card__text">{s.text}</p>
+              </Reveal>
+            ))}
+          </div>
+        </div>
+
+        <div className="container" style={{ marginTop: 72 }}>
+          <Reveal style={{ textAlign: 'center' }}>
+            <span className="section-label">Behind the scenes</span>
+            <h2 className="section-title" style={{ maxWidth: 720, margin: '0 auto 20px' }}>
+              {ANALYST.title}
+            </h2>
+            <p className="section-lead" style={{ maxWidth: 720, margin: '16px auto 0' }}>
+              {ANALYST.lead}
+            </p>
+          </Reveal>
+          <div style={{ marginTop: 40 }}>
+            <AnalystFlow />
+          </div>
+
+          <Reveal style={{ textAlign: 'center', marginTop: 56 }}>
+            <Link className="btn btn--cyan" href="/sign-up">
+              Start now - it takes 2 minutes
+              <Icon name="arrow-right" size={17} />
+            </Link>
+          </Reveal>
+        </div>
+      </div>
+    </>
+  );
+}

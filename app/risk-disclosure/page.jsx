@@ -1,4 +1,5 @@
-import LegalPage from '../components/LegalPage.jsx';
+import LegalPage from '../../src/components/LegalPage.jsx';
+import BreadcrumbSchema from '../../src/components/BreadcrumbSchema.jsx';
 
 const CONTENT = {
   title: 'Risk Disclosure',
@@ -40,6 +41,36 @@ const CONTENT = {
   ],
 };
 
+export const metadata = {
+  title: 'Risk Disclosure | Reine Fondange AI',
+  description:
+    'Risk Disclosure for the Reine Fondange AI trading platform - secure crypto investing for Australia.',
+  keywords:
+    'Reine Fondange AI, AI trading platform, crypto trading Australia, AI trading signals, secure trading platform, Reine Fondange AI risk disclosure, crypto investment risk Australia',
+  openGraph: {
+    title: 'Risk Disclosure | Reine Fondange AI',
+    description:
+      'Risk Disclosure for the Reine Fondange AI trading platform - secure crypto investing for Australia.',
+    url: '/risk-disclosure',
+    type: 'website',
+    siteName: 'Reine Fondange AI',
+    locale: 'en_AU',
+    images: ['/og-image.svg'],
+  },
+  twitter: {
+    title: 'Risk Disclosure | Reine Fondange AI',
+    description:
+      'Risk Disclosure for the Reine Fondange AI trading platform - secure crypto investing for Australia.',
+    images: ['/og-image.svg'],
+  },
+  alternates: { canonical: '/risk-disclosure' },
+};
+
 export default function RiskDisclosure() {
-  return <LegalPage content={CONTENT} path="/risk-disclosure" />;
+  return (
+    <>
+      <BreadcrumbSchema path="/risk-disclosure" label="Risk Disclosure" />
+      <LegalPage content={CONTENT} />
+    </>
+  );
 }

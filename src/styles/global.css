@@ -2307,3 +2307,10 @@ button {
     grid-template-columns: 1fr;
   }
 }
+
+/* ---------- next/font bridge ---------- */
+:root {
+  --font-display: var(--font-inter), 'Inter', system-ui, sans-serif;
+  --font-body: var(--font-inter), 'Inter', system-ui, sans-serif;
+  --font-mono: var(--font-plex-mono), 'IBM Plex Mono', ui-monospace, monospace;
+}

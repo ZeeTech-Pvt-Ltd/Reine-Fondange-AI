@@ -1,6 +1,8 @@
+'use client';
+
 import { useEffect, useRef, useState } from 'react';
-import { Link, useNavigate } from 'react-router';
-import 'intl-tel-input/dist/css/intlTelInput.min.css';
+import Link from 'next/link';
+import { useRouter } from 'next/navigation';
 import { SITE } from '../data/content.js';
 
 // Lead form with an intl-tel-input phone field. Utils are attached eagerly at
@@ -13,7 +15,7 @@ export default function RegistrationForm({
   buttonLabel = 'Sign Up now',
   showConsent = true,
 }) {
-  const navigate = useNavigate();
+  const router = useRouter();
   const phoneRef = useRef(null);
   const itiRef = useRef(null);
   const utilsReady = useRef(null);
@@ -180,7 +182,7 @@ export default function RegistrationForm({
         );
       }
       setSuccess('Account request received - redirecting…');
-      setTimeout(() => navigate('/thank-you'), 600);
+      setTimeout(() => router.push('/thank-you'), 600);
     } catch (err) {
       setFormError(err.message || 'Something went wrong. Please try again.');
     } finally {
@@ -272,11 +274,11 @@ export default function RegistrationForm({
             />
             <span>
               I have read and agree to the{' '}
-              <Link to="/privacy-policy" style={{ color: '#16c784', textDecoration: 'underline' }}>
+              <Link href="/privacy-policy" style={{ color: '#16c784', textDecoration: 'underline' }}>
                 Privacy Policy
               </Link>{' '}
               and{' '}
-              <Link to="/terms-of-use" style={{ color: '#16c784', textDecoration: 'underline' }}>
+              <Link href="/terms-of-use" style={{ color: '#16c784', textDecoration: 'underline' }}>
                 Terms &amp; Conditions
               </Link>
               .

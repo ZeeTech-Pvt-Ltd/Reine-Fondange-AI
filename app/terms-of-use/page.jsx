@@ -1,4 +1,5 @@
-import LegalPage from '../components/LegalPage.jsx';
+import LegalPage from '../../src/components/LegalPage.jsx';
+import BreadcrumbSchema from '../../src/components/BreadcrumbSchema.jsx';
 
 const CONTENT = {
   title: 'Terms of Use',
@@ -52,6 +53,36 @@ const CONTENT = {
   ],
 };
 
+export const metadata = {
+  title: 'Terms of Use | Reine Fondange AI',
+  description:
+    'Terms of Use for the Reine Fondange AI trading platform - secure crypto investing for Australia.',
+  keywords:
+    'Reine Fondange AI, AI trading platform, crypto trading Australia, AI trading signals, secure trading platform, Reine Fondange AI terms of use, platform terms Australia',
+  openGraph: {
+    title: 'Terms of Use | Reine Fondange AI',
+    description:
+      'Terms of Use for the Reine Fondange AI trading platform - secure crypto investing for Australia.',
+    url: '/terms-of-use',
+    type: 'website',
+    siteName: 'Reine Fondange AI',
+    locale: 'en_AU',
+    images: ['/og-image.svg'],
+  },
+  twitter: {
+    title: 'Terms of Use | Reine Fondange AI',
+    description:
+      'Terms of Use for the Reine Fondange AI trading platform - secure crypto investing for Australia.',
+    images: ['/og-image.svg'],
+  },
+  alternates: { canonical: '/terms-of-use' },
+};
+
 export default function TermsOfUse() {
-  return <LegalPage content={CONTENT} path="/terms-of-use" />;
+  return (
+    <>
+      <BreadcrumbSchema path="/terms-of-use" label="Terms of Use" />
+      <LegalPage content={CONTENT} />
+    </>
+  );
 }

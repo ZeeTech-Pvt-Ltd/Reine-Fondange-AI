@@ -1,8 +1,7 @@
-import { Link } from 'react-router';
+import Link from 'next/link';
 import Logo from './Logo.jsx';
 import Icon from './Icon.jsx';
 import { NAV_LINKS, FOOTER, SITE } from '../data/content.js';
-import { prefetchPage } from '../App.jsx';
 
 export default function Footer() {
   return (
@@ -10,7 +9,7 @@ export default function Footer() {
       <div className="container">
         <div className="footer__grid">
           <div>
-            <Link to="/" className="logo">
+            <Link href="/" className="logo">
               <Logo />
               <span className="logo__text">
                 Reine Fondange <span className="logo__ai">AI</span>
@@ -24,9 +23,7 @@ export default function Footer() {
             <ul className="footer__links">
               {NAV_LINKS.filter((l) => l.to !== '/').map((l) => (
                 <li key={l.to}>
-                  <Link to={l.to} onMouseEnter={() => prefetchPage(l.to)}>
-                    {l.label}
-                  </Link>
+                  <Link href={l.to}>{l.label}</Link>
                 </li>
               ))}
             </ul>
@@ -37,9 +34,7 @@ export default function Footer() {
             <ul className="footer__links">
               {FOOTER.legal.map((l) => (
                 <li key={l.to}>
-                  <Link to={l.to} onMouseEnter={() => prefetchPage(l.to)}>
-                    {l.label}
-                  </Link>
+                  <Link href={l.to}>{l.label}</Link>
                 </li>
               ))}
             </ul>

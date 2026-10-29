@@ -1,4 +1,4 @@
-import { Link } from 'react-router';
+import Link from 'next/link';
 import Reveal from '../components/Reveal.jsx';
 import SectionHead from '../components/SectionHead.jsx';
 import FaqList from '../components/FaqList.jsx';
@@ -21,7 +21,7 @@ export default function FaqSection() {
           <FaqList items={FAQS_HOME} />
         </Reveal>
         <Reveal className="faq__more">
-          <Link className="btn btn--ghost" to="/faq">
+          <Link className="btn btn--ghost" href="/faq">
             See all FAQs
             <Icon name="arrow-right" size={16} />
           </Link>

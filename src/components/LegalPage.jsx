@@ -1,4 +1,3 @@
-import useMeta from '../hooks/useMeta.js';
 import Icon from './Icon.jsx';
 import { SITE } from '../data/content.js';
 
@@ -11,16 +10,7 @@ const slugify = (s) =>
     .trim()
     .replace(/\s+/g, '-');
 
-export default function LegalPage({ content, path }) {
-  useMeta({
-    title: content.seoTitle || `${content.title} | ${SITE.name}`,
-    description:
-      content.description ||
-      `${content.title} for the ${SITE.name} trading platform - secure crypto investing for Australia.`,
-    path,
-    keywords: content.keywords || [],
-  });
-
+export default function LegalPage({ content }) {
   return (
     <div className="section section--deep">
       <div className="container legal">

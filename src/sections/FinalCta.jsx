@@ -1,4 +1,4 @@
-import { Link } from 'react-router';
+import Link from 'next/link';
 import Reveal from '../components/Reveal.jsx';
 import Icon from '../components/Icon.jsx';
 import { CTA_BAND } from '../data/content.js';
@@ -12,11 +12,11 @@ export default function FinalCta() {
           <h2 className="section-title">{CTA_BAND.title}</h2>
           <p className="section-lead">{CTA_BAND.lead}</p>
           <div className="final-cta__actions">
-            <Link className="btn btn--cyan" to={CTA_BAND.cta.to}>
+            <Link className="btn btn--cyan" href={CTA_BAND.cta.to}>
               {CTA_BAND.cta.label}
               <Icon name="arrow-right" size={17} />
             </Link>
-            <Link className="btn btn--ghost" to="/faq">
+            <Link className="btn btn--ghost" href="/faq">
               Read the FAQ
             </Link>
           </div>

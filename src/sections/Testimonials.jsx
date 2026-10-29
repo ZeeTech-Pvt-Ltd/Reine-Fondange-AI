@@ -1,3 +1,5 @@
+'use client';
+
 import { useCallback, useEffect, useRef, useState } from 'react';
 import Reveal from '../components/Reveal.jsx';
 import SectionHead from '../components/SectionHead.jsx';

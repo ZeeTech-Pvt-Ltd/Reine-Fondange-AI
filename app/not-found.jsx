@@ -1,15 +1,7 @@
-import { Link } from 'react-router';
-import useMeta from '../hooks/useMeta.js';
-import Icon from '../components/Icon.jsx';
+import Link from 'next/link';
+import Icon from '../src/components/Icon.jsx';
 
 export default function NotFound() {
-  useMeta({
-    title: 'Page Not Found | Reine Fondange AI',
-    description: 'The page you were looking for does not exist.',
-    path: '/404',
-    keywords: [],
-  });
-
   return (
     <section className="section section--deep" style={{ textAlign: 'center' }}>
       <div className="container" style={{ maxWidth: 560 }}>
@@ -19,7 +11,7 @@ export default function NotFound() {
         <p className="section-lead" style={{ marginBottom: 32 }}>
           This page has drifted off the charts. The homepage is still right where you left it.
         </p>
-        <Link className="btn btn--cyan" to="/">
+        <Link className="btn btn--cyan" href="/">
           Back to the homepage
           <Icon name="arrow-right" size={17} />
         </Link>
