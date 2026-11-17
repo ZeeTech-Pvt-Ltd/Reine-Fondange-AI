@@ -10,7 +10,7 @@ export const metadata = {
   description:
     'Deposits, withdrawals, security, KYC, fees and more - the most common Reine Fondange AI questions answered in plain English.',
   keywords:
-    'Reine Fondange AI, AI trading platform, crypto trading Australia, AI trading signals, secure trading platform, Reine Fondange AI FAQ, trading platform questions, minimum deposit Australia',
+    'Reine Fondange AI, AI trading platform, crypto trading, AI trading signals, secure trading platform, Reine Fondange AI FAQ, trading platform questions, minimum deposit',
   openGraph: {
     title: 'FAQ | Reine Fondange AI - Your Questions, Answered Plainly',
     description:
@@ -18,7 +18,7 @@ export const metadata = {
     url: '/faq',
     type: 'website',
     siteName: 'Reine Fondange AI',
-    locale: 'en_AU',
+    locale: 'en',
     images: ['/og-image.svg'],
   },
   twitter: {

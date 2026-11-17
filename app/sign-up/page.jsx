@@ -5,23 +5,23 @@ import { SITE } from '../../src/data/content.js';
 export const metadata = {
   title: 'Sign Up | Open a Reine Fondange AI Account Today',
   description:
-    'Open your Reine Fondange AI account in minutes. Join 42M+ members worldwide, fund from A$250 and let guided trading do the heavy lifting.',
+    'Open your Reine Fondange AI account in minutes. Join 42M+ members worldwide, fund from $250 and let guided trading do the heavy lifting.',
   keywords:
-    'Reine Fondange AI, AI trading platform, crypto trading Australia, AI trading signals, secure trading platform, Reine Fondange AI sign up, open trading account Australia, AI trading registration, Reine Fondange AI register',
+    'Reine Fondange AI, AI trading platform, crypto trading, AI trading signals, secure trading platform, Reine Fondange AI sign up, open trading account, AI trading registration, Reine Fondange AI register',
   openGraph: {
     title: 'Sign Up | Open a Reine Fondange AI Account Today',
     description:
-      'Open your Reine Fondange AI account in minutes. Join 42M+ members worldwide, fund from A$250 and let guided trading do the heavy lifting.',
+      'Open your Reine Fondange AI account in minutes. Join 42M+ members worldwide, fund from $250 and let guided trading do the heavy lifting.',
     url: '/sign-up',
     type: 'website',
     siteName: 'Reine Fondange AI',
-    locale: 'en_AU',
+    locale: 'en',
     images: ['/og-image.svg'],
   },
   twitter: {
     title: 'Sign Up | Open a Reine Fondange AI Account Today',
     description:
-      'Open your Reine Fondange AI account in minutes. Join 42M+ members worldwide, fund from A$250 and let guided trading do the heavy lifting.',
+      'Open your Reine Fondange AI account in minutes. Join 42M+ members worldwide, fund from $250 and let guided trading do the heavy lifting.',
     images: ['/og-image.svg'],
   },
   alternates: { canonical: '/sign-up' },
@@ -43,7 +43,7 @@ export default function SignUp() {
             <RegistrationForm idPrefix="signup" />
           </div>
           <p className="form__note" style={{ marginTop: 20 }}>
-            {SITE.tagline} · Minimum deposit A$250
+            {SITE.tagline} · Minimum deposit $250
           </p>
         </div>
       </section>

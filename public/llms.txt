@@ -1,6 +1,6 @@
 # Reine Fondange AI
 
-> Reine Fondange AI is an AI-guided trading platform for verified Australian residents. Crypto, forex and equities with curated signals, risk guardrails and bank-grade security.
+> Reine Fondange AI is an AI-guided trading platform for verified members worldwide. Crypto, forex and equities with curated signals, risk guardrails and bank-grade security.
 
 ## Key pages
 
@@ -19,7 +19,7 @@
 ## Contact
 
 - Email: support@reinefondange-ai.com
-- Support hours: Mon-Fri 9:00-18:00 AEST
+- Support hours: Mon-Fri 9:00-18:00 GMT
 
 ## Important
 

@@ -10,7 +10,7 @@ export const metadata = {
   description:
     'Open your Reine Fondange AI account in two minutes, fund from A$250 and let guided trading do the heavy lifting - with human oversight on every move.',
   keywords:
-    'Reine Fondange AI, AI trading platform, crypto trading Australia, AI trading signals, secure trading platform, how Reine Fondange AI works, open trading account Australia, AI trading explained',
+    'Reine Fondange AI, AI trading platform, crypto trading, AI trading signals, secure trading platform, how Reine Fondange AI works, open trading account, AI trading explained',
   openGraph: {
     title: 'How It Works | Reine Fondange AI - Six Steps to Trading',
     description:
@@ -18,7 +18,7 @@ export const metadata = {
     url: '/how-it-works',
     type: 'website',
     siteName: 'Reine Fondange AI',
-    locale: 'en_AU',
+    locale: 'en',
     images: ['/og-image.svg'],
   },
   twitter: {

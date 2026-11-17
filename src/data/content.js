@@ -1,5 +1,5 @@
 // All site copy for Reine Fondange AI - single source of truth.
-// Keyword: Reine Fondange AI. Target market: Australia.
+// Keyword: Reine Fondange AI. Target market: Global.
 
 export const SITE = {
   name: 'Reine Fondange AI',
@@ -20,30 +20,298 @@ export const NAV_LINKS = [
 ];
 
 export const HERO = {
-  titleLines: ['Reine Fondange AI', 'Trade With Royal Composure.'],
-  sub: 'One elegant platform for crypto, forex and equities. Reine Fondange AI pairs around-the-clock market analysis with firm risk guardrails, so you stay calm while the markets move.',
-  ctaPrimary: { label: 'Sign Up now', to: '/sign-up' },
-  ctaSecondary: { label: 'See how it works', to: '/how-it-works' },
+  label: 'AI trading signals · Worldwide',
+  h1: 'Plan Every Trade With Reine Fondange AI Signals',
+  sub: 'Cut through market noise with alerts that show you exactly what to trade, where to enter, where to step out and the reason behind it. Reine Fondange AI helps you act with purpose instead of panic.',
+  ctaPrimary: { label: 'Create Your Free Account', to: '/sign-up' },
+  micro: 'Two-minute registration · Clear pricing · Secure from the start',
   formNotice: 'Joining takes about two minutes. An account manager will call you shortly.',
   formButton: 'Create Account',
-  steps: [
-    'Register in 2 minutes',
-    'Verify your identity securely',
-  ],
-  trust: ['Regulated standards', 'Segregated funds', 'Support around the clock'],
 };
+
+// Landing copy follows the approved brief: signals-first messaging, brand = Reine Fondange AI.
+
+export const WHAT_IS = {
+  title: 'What Is Reine Fondange AI?',
+  definition:
+    'Reine Fondange AI is an AI-assisted trading signals platform that reads price data across the crypto, forex, stock and commodity markets and turns it into clear buy or sell alerts, each including an entry point, a stop-loss, a take-profit level and a short explanation, so you can decide on every trade with full information.',
+  copy: 'Charts, news headlines and price swings can overwhelm anyone. Reine Fondange AI sorts through all of it and gives you only what matters: a ready trade plan and the logic behind it. You save hours of research and still understand every decision you make.',
+  example: {
+    pair: 'BTC / USD',
+    action: 'Buy',
+    entry: '$58,200',
+    stopLoss: '$56,900',
+    takeProfit: '$61,400',
+    reason: 'Momentum turn confirmed on the 4-hour chart.',
+  },
+};
+
+export const SIGNALS_WORK = {
+  title: 'How Reine Fondange AI Signals Work',
+  lead: 'Four steps between a market move and a decision you can act on.',
+  items: [
+    {
+      title: 'Watch',
+      text: 'The platform keeps an eye on price action, momentum and key economic events in every market it follows.',
+    },
+    {
+      title: 'Qualify',
+      text: 'Each potential trade is tested for a clear trend and an acceptable level of risk before it goes any further.',
+    },
+    {
+      title: 'Notify',
+      text: 'You get one complete alert covering the asset, direction, entry, stop-loss, take-profit and the reasoning.',
+    },
+    {
+      title: 'Decide',
+      text: 'Use the alert as it is, fine-tune it for your strategy or simply let it go.',
+    },
+  ],
+};
+
+export const VERSUS = {
+  title: 'Trading With vs Without Reine Fondange AI',
+  without: [
+    'Endless chart watching',
+    'No clear exit plan',
+    'Trades driven by fear or excitement',
+    'Missed chances during work hours',
+  ],
+  with: [
+    'Research condensed into a single alert',
+    'Stop-loss and take-profit set in advance',
+    'Decisions backed by a stated reason',
+    'Alerts delivered straight to your device',
+  ],
+};
+
+export const QUICK_HIGHLIGHTS = {
+  title: 'Quick Highlights',
+  items: [
+    { icon: 'globe', title: 'One Login, Every Market', text: 'Crypto, forex, stocks and commodities in a single account.' },
+    { icon: 'cpu', title: 'A Reason With Every Alert', text: 'Every signal arrives with a short, simple explanation.' },
+    { icon: 'devices', title: 'Works On Any Device', text: 'Full access on any phone, tablet or computer.' },
+    { icon: 'sliders', title: 'Risk Limits You Control', text: 'You decide how much any single trade can put at stake.' },
+  ],
+};
+
+export const WHY_CHOOSE = {
+  title: 'Why Choose Us',
+  lead: 'Four reasons members stay with Reine Fondange AI.',
+  items: [
+    {
+      icon: 'eye',
+      title: 'Built For Clarity',
+      text: 'Each alert is written so that anyone can understand it on the first read.',
+    },
+    {
+      icon: 'cpu',
+      title: 'Research Handled',
+      text: 'We do the time-consuming analysis, and you get the conclusion.',
+    },
+    {
+      icon: 'zap',
+      title: 'Alerts Without Delay',
+      text: 'Signals are sent once a setup is confirmed, giving you time to act.',
+    },
+    {
+      icon: 'headset',
+      title: 'Real Human Help',
+      text: 'A friendly support team is on hand through live chat and email.',
+    },
+  ],
+};
+
+export const GET_STARTED = {
+  title: 'How To Get Started',
+  lead: 'Your first signal in 4 simple steps.',
+  items: [
+    {
+      title: 'Open An Account',
+      text: 'Provide your name, email and mobile number.',
+    },
+    {
+      title: 'Verify Yourself',
+      text: 'Upload an ID document so your account stays safe.',
+    },
+    {
+      title: 'Make Your Deposit',
+      text: 'Pick a funding method that works best for you.',
+    },
+    {
+      title: 'Receive Your First Alert',
+      text: 'Select markets, set your risk preferences and review your first signal.',
+    },
+  ],
+  cta: { label: 'Sign Up Free', to: '/sign-up' },
+};
+
+export const MARKETS = {
+  title: 'Markets',
+  lead: 'One account for every market you follow.',
+  items: [
+    {
+      icon: 'coins',
+      title: 'Crypto',
+      text: 'Trade ideas on major cryptocurrencies such as Bitcoin and Ethereum.',
+    },
+    {
+      icon: 'chart',
+      title: 'Forex',
+      text: 'Alerts on actively traded currency pairs, for example EUR/USD and GBP/USD.',
+    },
+    {
+      icon: 'invest',
+      title: 'Stocks',
+      text: 'Signals on shares of top companies from global exchanges.',
+    },
+    {
+      icon: 'layers',
+      title: 'Commodities',
+      text: 'Setups on gold, silver and oil.',
+    },
+  ],
+};
+
+export const SIGNAL_FEATURES = {
+  title: 'Features',
+  items: [
+    {
+      icon: 'cpu',
+      title: 'Reason-First Signals',
+      text: 'Every alert tells you why the trade makes sense.',
+    },
+    {
+      icon: 'target',
+      title: 'Automatic Exit Levels',
+      text: 'Stop-loss and take-profit points are included from the start.',
+    },
+    {
+      icon: 'zap',
+      title: 'Price Triggers',
+      text: 'Pick a target price and receive a notification once it is reached.',
+    },
+    {
+      icon: 'chart',
+      title: 'Easy Dashboard',
+      text: 'Your balance, active trades and trade history, all in one view.',
+    },
+    {
+      icon: 'devices',
+      title: 'Web-Based Platform',
+      text: 'No installation needed. Just log in from your browser.',
+    },
+  ],
+};
+
+export const RISK_MANAGEMENT = {
+  title: 'Smart Risk Management',
+  copy: 'Good trading is as much about protecting your money as growing it. Every Reine Fondange AI alert includes a stop-loss to limit losses and a take-profit to lock in gains. You can also set your own risk limits for each trade, so no single position puts too much of your account at stake.',
+  pills: ['Stop-loss on every alert', 'Take-profit locked in', 'Risk limits you control'],
+};
+
+export const WHO_FOR = {
+  title: "Who It's For",
+  items: [
+    {
+      icon: 'user',
+      title: 'Beginners',
+      text: 'Learn the ropes with alerts that explain themselves.',
+    },
+    {
+      icon: 'clock',
+      title: 'Full-Time Workers',
+      text: 'Check the markets in a few spare minutes and still stay informed.',
+    },
+    {
+      icon: 'chart',
+      title: 'Seasoned Traders',
+      text: 'Test your own ideas against ours and discover setups in new markets.',
+    },
+  ],
+};
+
+export const SECURITY_TRANSPARENCY = {
+  title: 'Security & Transparency',
+  items: [
+    {
+      icon: 'lock',
+      title: 'Protected Information',
+      text: 'Encryption keeps your personal and payment data private.',
+    },
+    {
+      icon: 'key',
+      title: 'Two-Step Login',
+      text: 'An additional security check keeps your account in your hands only.',
+    },
+    {
+      icon: 'receipt',
+      title: 'Transparent Fees',
+      text: 'You see all costs before you pay anything.',
+    },
+    {
+      icon: 'user',
+      title: 'No Trades Without You',
+      text: 'Reine Fondange AI only acts on your instructions.',
+    },
+  ],
+  riskNote:
+    'Trading is high-risk, and you may lose some or all of the money you invest. Reine Fondange AI signals are for information only and do not guarantee any profit. Past performance is not a guide to future results.',
+  cta: { label: 'Open Your Secure Account', to: '/sign-up' },
+};
+
+// Homepage FAQ set per the approved brief. [Amount] / withdrawal placeholders
+// filled from the site's existing terms ($250 minimum, ~1 business day).
+export const HOME_FAQS = [
+  {
+    q: 'What Is Reine Fondange AI?',
+    a: 'Reine Fondange AI is a trading signals platform that studies the markets and sends you ready-made trade alerts with entry, stop-loss and take-profit levels, plus the reason for each.',
+  },
+  {
+    q: 'How Does Reine Fondange AI Decide Which Signals To Send?',
+    a: 'Every setup must pass checks for trend direction and risk level. Only trades that meet these rules become alerts.',
+  },
+  {
+    q: 'Do I Need Trading Experience To Use Reine Fondange AI?',
+    a: 'No. Alerts are written in simple terms, so even first-time traders can follow them.',
+  },
+  {
+    q: 'Does Reine Fondange AI Trade On My Behalf?',
+    a: 'No. You review each alert and choose whether to act.',
+  },
+  {
+    q: 'Which Markets Can I Trade With Reine Fondange AI?',
+    a: 'Crypto, forex, stocks and commodities, all from one account.',
+  },
+  {
+    q: 'Is A Mobile App Required?',
+    a: 'No. Reine Fondange AI runs in your web browser on phone, tablet or desktop.',
+  },
+  {
+    q: 'What Is The Minimum Deposit?',
+    a: 'You can get started with $250.',
+  },
+  {
+    q: 'How Long Do Withdrawals Take?',
+    a: 'Most withdrawals are processed within one business day.',
+  },
+  {
+    q: 'Can I Lose Money?',
+    a: 'Yes. All trading involves risk, so only use money you can afford to lose.',
+  },
+];
 
 // Market ticker - indicative prices, simulated live for display purposes only.
 // `d` = decimal places shown for the price.
 export const MARKET_TICKER = [
-  { k: 'BTC', v: 'A$102,480', change: '+2.4%', dir: 'up', d: 0, icon: '/coins/bitcoin-btc.svg' },
-  { k: 'ETH', v: 'A$5,290', change: '+1.1%', dir: 'up', d: 0, icon: '/coins/ethereum-eth.svg' },
-  { k: 'SOL', v: 'A$312', change: '-0.8%', dir: 'down', d: 0, icon: '/coins/solana-sol.svg' },
-  { k: 'XRP', v: 'A$3.42', change: '+4.2%', dir: 'up', d: 2, icon: '/coins/xrp-xrp.svg' },
-  { k: 'BNB', v: 'A$1,180', change: '+0.6%', dir: 'up', d: 0, icon: '/coins/bnb-bnb.svg' },
-  { k: 'ADA', v: 'A$1.87', change: '-1.3%', dir: 'down', d: 2, icon: '/coins/cardano-ada.svg' },
-  { k: 'DOGE', v: 'A$0.52', change: '+3.1%', dir: 'up', d: 2, icon: '/coins/dogecoin-doge.svg' },
-  { k: 'AVAX', v: 'A$58.40', change: '+0.9%', dir: 'up', d: 2, icon: '/coins/avalanche-avax.svg' },
+  { k: 'BTC', v: '$102,480', change: '+2.4%', dir: 'up', d: 0, icon: '/coins/bitcoin-btc.svg' },
+  { k: 'ETH', v: '$5,290', change: '+1.1%', dir: 'up', d: 0, icon: '/coins/ethereum-eth.svg' },
+  { k: 'SOL', v: '$312', change: '-0.8%', dir: 'down', d: 0, icon: '/coins/solana-sol.svg' },
+  { k: 'XRP', v: '$3.42', change: '+4.2%', dir: 'up', d: 2, icon: '/coins/xrp-xrp.svg' },
+  { k: 'BNB', v: '$1,180', change: '+0.6%', dir: 'up', d: 0, icon: '/coins/bnb-bnb.svg' },
+  { k: 'ADA', v: '$1.87', change: '-1.3%', dir: 'down', d: 2, icon: '/coins/cardano-ada.svg' },
+  { k: 'DOGE', v: '$0.52', change: '+3.1%', dir: 'up', d: 2, icon: '/coins/dogecoin-doge.svg' },
+  { k: 'AVAX', v: '$58.40', change: '+0.9%', dir: 'up', d: 2, icon: '/coins/avalanche-avax.svg' },
 ];
 
 // Indicative allocation of the flagship Balanced vault.
@@ -58,7 +326,7 @@ export const ALLOCATION = [
 export const STATS = [
   { value: '70+', label: 'Assets under one roof' },
   { value: '42M+', label: 'Members worldwide' },
-  { value: 'A$440M+', label: 'Monthly turnover' },
+  { value: '$440M+', label: 'Monthly turnover' },
   { value: '24/7', label: 'Support every day' },
 ];
 
@@ -143,7 +411,7 @@ export const THREE_STEPS = {
     {
       icon: 'unlock',
       title: 'Enter The Platform',
-      text: 'Fund from A$250. Bigger amounts are optional, and fees are always shown first.',
+      text: 'Fund from $250. Bigger amounts are optional, and fees are always shown first.',
     },
     {
       icon: 'card',
@@ -234,10 +502,10 @@ export const FEATURES = {
 };
 
 export const CTA_BAND = {
-  title: 'Open Your Reine Fondange AI Account Today',
-  lead: 'Registration takes two minutes. Your capital stays protected from the very first dollar.',
-  cta: { label: 'Sign Up now', to: '/sign-up' },
-  note: 'Capital at risk. Crypto assets are volatile and past performance is no guide to future returns.',
+  title: 'Make Your Next Trade A Smarter One',
+  lead: 'Open your Reine Fondange AI account and start trading with clear alerts, explained reasoning and complete control over every move.',
+  cta: { label: 'Join Reine Fondange AI Free', to: '/sign-up' },
+  note: 'Sign up in 2 minutes · No fee to join',
 };
 
 export const TESTIMONIALS = {
@@ -246,7 +514,7 @@ export const TESTIMONIALS = {
   items: [
     {
       name: 'Charlotte D.',
-      city: 'Sydney',
+      city: 'London',
       since: '2023',
       stars: 5,
       photo: '/testimonials/charlotte.jpg',
@@ -254,7 +522,7 @@ export const TESTIMONIALS = {
     },
     {
       name: 'William G.',
-      city: 'Melbourne',
+      city: 'New York',
       since: '2024',
       stars: 5,
       photo: '/testimonials/william.jpg',
@@ -262,7 +530,7 @@ export const TESTIMONIALS = {
     },
     {
       name: 'Amelia K.',
-      city: 'Brisbane',
+      city: 'Toronto',
       since: '2023',
       stars: 5,
       photo: '/testimonials/amelia.jpg',
@@ -270,7 +538,7 @@ export const TESTIMONIALS = {
     },
     {
       name: 'Henry P.',
-      city: 'Perth',
+      city: 'Singapore',
       since: '2024',
       stars: 4,
       photo: '/testimonials/henry.jpg',
@@ -278,7 +546,7 @@ export const TESTIMONIALS = {
     },
     {
       name: 'Isabelle R.',
-      city: 'Adelaide',
+      city: 'Berlin',
       since: '2023',
       stars: 5,
       photo: '/testimonials/isabelle.jpg',
@@ -286,11 +554,11 @@ export const TESTIMONIALS = {
     },
     {
       name: 'Oliver J.',
-      city: 'Hobart',
+      city: 'Tokyo',
       since: '2024',
       stars: 4,
       photo: '/testimonials/oliver.jpg',
-      text: 'Started with A$250 and stayed for the signals. My balance grows quietly in the background.',
+      text: 'Started with $250 and stayed for the signals. My balance grows quietly in the background.',
     },
   ],
 };
@@ -298,7 +566,7 @@ export const TESTIMONIALS = {
 export const FAQS = [
   {
     q: 'What Is The Minimum Deposit?',
-    a: 'You can open an account for free and fund it from as little as A$250. There is no obligation to add more, and you can top up whenever you like.',
+    a: 'You can open an account for free and fund it from as little as $250. There is no obligation to add more, and you can top up whenever you like.',
   },
   {
     q: 'How Quickly Can I Withdraw?',
@@ -318,15 +586,15 @@ export const FAQS = [
   },
   {
     q: 'Is There A Minimum Age To Join?',
-    a: 'Yes. You must be at least 18 years old and a verified resident of Australia to open an account.',
+    a: 'Yes. You must be at least 18 years old to open an account.',
   },
   {
     q: 'Which Payment Methods Are Accepted?',
-    a: 'We accept Australian bank transfers and major debit and credit cards. Deposits are credited once cleared, and withdrawals return to your registered account.',
+    a: 'We accept bank transfers and major debit and credit cards. Deposits are credited once cleared, and withdrawals return to your registered account.',
   },
   {
     q: 'When Is Support Available?',
-    a: 'Our Australia-based support team is online Monday to Friday, 9:00-18:00 AEST. Urgent security issues are monitored around the clock.',
+    a: 'Our support team is online Monday to Friday, 9:00-18:00 GMT. Urgent security issues are monitored around the clock.',
   },
   {
     q: 'Am I Responsible For My Own Taxes?',
@@ -334,7 +602,7 @@ export const FAQS = [
   },
   {
     q: 'What Documents Do I Need For KYC?',
-    a: 'A government-issued photo ID and proof of Australian address, such as a recent utility bill or bank statement. Verification is encrypted and handled in minutes.',
+    a: 'A government-issued photo ID and proof of address, such as a recent utility bill or bank statement. Verification is encrypted and handled in minutes.',
   },
   {
     q: 'Do I Need Investment Experience?',
@@ -346,7 +614,7 @@ export const FAQS = [
   },
   {
     q: 'Is Reine Fondange AI Regulated?',
-    a: 'We operate under ASIC-regulated security standards with regulated custodians and audited controls. Full details are published in our Risk Disclosure.',
+    a: 'We operate under internationally recognised security standards with regulated custodians and audited controls. Full details are published in our Risk Disclosure.',
   },
   {
     q: 'Can I Add Funds Later?',
@@ -474,7 +742,7 @@ export const RATING = {
 
 export const FOOTER = {
   blurb:
-    'Reine Fondange AI is an AI-guided trading platform for verified Australian residents. Segregated funds, cold storage and audited controls, protected at every layer.',
+    'Reine Fondange AI is an AI-guided trading platform for verified members worldwide. Segregated funds, cold storage and audited controls, protected at every layer.',
   legal: [
     { label: 'Privacy Policy', to: '/privacy-policy' },
     { label: 'Terms of Use', to: '/terms-of-use' },
@@ -486,8 +754,8 @@ export const FOOTER = {
 
 export const CONTACTS = {
   title: 'Talk To A Human',
-  lead: 'Questions before you join? Our Australia-based support team is online Monday to Friday, 9:00-18:00 AEST.',
+  lead: 'Questions before you join? Our global support team is online Monday to Friday, 9:00-18:00 GMT.',
   email: 'support@reinefondange-ai.com',
-  support: 'Mon-Fri 9:00-18:00 AEST',
+  support: 'Mon-Fri 9:00-18:00 GMT',
   security: 'Security issues monitored 24/7',
 };

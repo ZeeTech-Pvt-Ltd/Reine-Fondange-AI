@@ -14,23 +14,23 @@ const CARDS = [
 export const metadata = {
   title: 'Contact Us | Reine Fondange AI - Talk to a Human',
   description:
-    'Questions about Reine Fondange AI? Email our Australia-based support team - real humans reply within one business day.',
+    'Questions about Reine Fondange AI? Email our support team - real humans reply within one business day.',
   keywords:
-    'Reine Fondange AI, AI trading platform, crypto trading Australia, AI trading signals, secure trading platform, contact Reine Fondange AI, Reine Fondange AI support, trading platform help Australia',
+    'Reine Fondange AI, AI trading platform, crypto trading, AI trading signals, secure trading platform, contact Reine Fondange AI, Reine Fondange AI support, trading platform help',
   openGraph: {
     title: 'Contact Us | Reine Fondange AI - Talk to a Human',
     description:
-      'Questions about Reine Fondange AI? Email our Australia-based support team - real humans reply within one business day.',
+      'Questions about Reine Fondange AI? Email our support team - real humans reply within one business day.',
     url: '/contact-us',
     type: 'website',
     siteName: 'Reine Fondange AI',
-    locale: 'en_AU',
+    locale: 'en',
     images: ['/og-image.svg'],
   },
   twitter: {
     title: 'Contact Us | Reine Fondange AI - Talk to a Human',
     description:
-      'Questions about Reine Fondange AI? Email our Australia-based support team - real humans reply within one business day.',
+      'Questions about Reine Fondange AI? Email our support team - real humans reply within one business day.',
     images: ['/og-image.svg'],
   },
   alternates: { canonical: '/contact-us' },

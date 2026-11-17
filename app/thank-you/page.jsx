@@ -12,14 +12,14 @@ export const metadata = {
   title: 'Thank You | Reine Fondange AI - Account Request Received',
   description: 'Your Reine Fondange AI account request has been received. Here is what happens next.',
   keywords:
-    'Reine Fondange AI, AI trading platform, crypto trading Australia, AI trading signals, secure trading platform, Reine Fondange AI account created, Reine Fondange AI next steps',
+    'Reine Fondange AI, AI trading platform, crypto trading, AI trading signals, secure trading platform, Reine Fondange AI account created, Reine Fondange AI next steps',
   openGraph: {
     title: 'Thank You | Reine Fondange AI - Account Request Received',
     description: 'Your Reine Fondange AI account request has been received. Here is what happens next.',
     url: '/thank-you',
     type: 'website',
     siteName: 'Reine Fondange AI',
-    locale: 'en_AU',
+    locale: 'en',
     images: ['/og-image.svg'],
   },
   twitter: {

@@ -12,12 +12,8 @@ export default function Hero() {
       <div className="container">
         <div className="hero__inner">
           <div className="hero__copy">
-            <span className="section-label">AI-guided trading · Australia</span>
-            <h1 className="hero__title">
-              {HERO.titleLines[0]}
-              <br />
-              {HERO.titleLines[1]}
-            </h1>
+            <span className="section-label">{HERO.label}</span>
+            <h1 className="hero__title">{HERO.h1}</h1>
 
             <p className="hero__sub">{HERO.sub}</p>
 
@@ -26,28 +22,9 @@ export default function Hero() {
                 {HERO.ctaPrimary.label}
                 <Icon name="arrow-right" size={17} />
               </Link>
-              <Link className="btn btn--ghost" href={HERO.ctaSecondary.to}>
-                {HERO.ctaSecondary.label}
-              </Link>
             </div>
 
-            <div className="hero__steps">
-              {HERO.steps.map((s, i) => (
-                <span key={s}>
-                  {i > 0 && <span className="hero__steps-sep">→</span>}
-                  {s}
-                </span>
-              ))}
-            </div>
-
-            <div className="hero__trust">
-              {HERO.trust.map((t) => (
-                <span key={t}>
-                  <Icon name="check" size={15} />
-                  {t}
-                </span>
-              ))}
-            </div>
+            <p className="hero__micro">{HERO.micro}</p>
           </div>
 
           <div className="hero__visual">

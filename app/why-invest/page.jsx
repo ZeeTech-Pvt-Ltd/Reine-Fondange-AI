@@ -7,23 +7,23 @@ import { SECURITY, FEATURES } from '../../src/data/content.js';
 export const metadata = {
   title: 'Why Invest | Reine Fondange AI - Guarded on Every Side',
   description:
-    'Segregated funds, regulated custodians, cold storage and audited controls - see why Australian members choose Reine Fondange AI for trading.',
+    'Segregated funds, regulated custodians, cold storage and audited controls - see why members worldwide choose Reine Fondange AI for trading.',
   keywords:
-    'Reine Fondange AI, AI trading platform, crypto trading Australia, AI trading signals, secure trading platform, why trade with Reine Fondange AI, secure crypto custody, Reine Fondange AI security',
+    'Reine Fondange AI, AI trading platform, crypto trading, AI trading signals, secure trading platform, why trade with Reine Fondange AI, secure crypto custody, Reine Fondange AI security',
   openGraph: {
     title: 'Why Invest | Reine Fondange AI - Guarded on Every Side',
     description:
-      'Segregated funds, regulated custodians, cold storage and audited controls - see why Australian members choose Reine Fondange AI for trading.',
+      'Segregated funds, regulated custodians, cold storage and audited controls - see why members worldwide choose Reine Fondange AI for trading.',
     url: '/why-invest',
     type: 'website',
     siteName: 'Reine Fondange AI',
-    locale: 'en_AU',
+    locale: 'en',
     images: ['/og-image.svg'],
   },
   twitter: {
     title: 'Why Invest | Reine Fondange AI - Guarded on Every Side',
     description:
-      'Segregated funds, regulated custodians, cold storage and audited controls - see why Australian members choose Reine Fondange AI for trading.',
+      'Segregated funds, regulated custodians, cold storage and audited controls - see why members worldwide choose Reine Fondange AI for trading.',
     images: ['/og-image.svg'],
   },
   alternates: { canonical: '/why-invest' },

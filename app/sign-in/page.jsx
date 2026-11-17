@@ -7,7 +7,7 @@ export const metadata = {
   description:
     'Existing Reine Fondange AI members sign in through the secure link sent after registration.',
   keywords:
-    'Reine Fondange AI, AI trading platform, crypto trading Australia, AI trading signals, secure trading platform, Reine Fondange AI sign in, Reine Fondange AI login',
+    'Reine Fondange AI, AI trading platform, crypto trading, AI trading signals, secure trading platform, Reine Fondange AI sign in, Reine Fondange AI login',
   openGraph: {
     title: 'Sign In | Reine Fondange AI',
     description:
@@ -15,7 +15,7 @@ export const metadata = {
     url: '/sign-in',
     type: 'website',
     siteName: 'Reine Fondange AI',
-    locale: 'en_AU',
+    locale: 'en',
     images: ['/og-image.svg'],
   },
   twitter: {

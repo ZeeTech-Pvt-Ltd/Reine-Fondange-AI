@@ -24,16 +24,16 @@ const plexMono = IBM_Plex_Mono({
 
 export const metadata = {
   metadataBase: new URL(SITE.url),
-  title: 'Reine Fondange AI: Elegant AI Trading Platform for Australia',
+  title: 'Reine Fondange AI: Plan Every Trade With AI Trading Signals',
   description:
-    "Reine Fondange AI is Australia's AI-guided trading platform. Crypto, forex and equities with curated signals, risk guardrails and layered security.",
+    'Cut through market noise with alerts that show you exactly what to trade, where to enter, where to step out and the reason behind it. Reine Fondange AI helps you act with purpose instead of panic.',
   keywords:
-    'Reine Fondange AI, AI trading platform, crypto trading Australia, AI trading signals, secure trading platform',
+    'Reine Fondange AI, AI trading platform, crypto trading, AI trading signals, secure trading platform',
   icons: { icon: '/favicon.svg' },
   verification: { google: '7AkxJ4yKcmQAm_s-Et1nDkiYcKp0Zg5gr5sLZvcB8zE' },
   openGraph: {
     siteName: SITE.name,
-    locale: 'en_AU',
+    locale: 'en',
     type: 'website',
     images: ['/og-image.svg'],
   },
@@ -50,8 +50,8 @@ const ORGANIZATION_SCHEMA = {
   url: 'https://reinefondange-ai.com/',
   logo: 'https://reinefondange-ai.com/favicon.svg',
   description:
-    "Reine Fondange AI is Australia's AI-guided trading platform. Crypto, forex and equities with curated signals, risk guardrails and layered security.",
-  areaServed: { '@type': 'Country', name: 'Australia' },
+    'Reine Fondange AI is a global AI-guided trading platform. Crypto, forex and equities with curated signals, risk guardrails and layered security.',
+  areaServed: 'Worldwide',
   contactPoint: {
     '@type': 'ContactPoint',
     contactType: 'customer support',
@@ -72,7 +72,7 @@ const SERVICE_SCHEMA = {
   '@type': ['Service', 'Product'],
   name: 'Reine Fondange AI Trading Platform',
   description:
-    "Reine Fondange AI is Australia's AI-guided trading platform for crypto, forex and equities, with curated signals, risk guardrails and bank-grade security.",
+    'Reine Fondange AI is a global AI-guided trading platform for crypto, forex and equities, with curated signals, risk guardrails and bank-grade security.',
   url: 'https://reinefondange-ai.com/',
   image: 'https://reinefondange-ai.com/og-image.svg',
   category: 'Financial Services',
@@ -81,7 +81,7 @@ const SERVICE_SCHEMA = {
     name: 'Reine Fondange AI',
     url: 'https://reinefondange-ai.com/',
   },
-  areaServed: { '@type': 'Country', name: 'Australia' },
+  areaServed: 'Worldwide',
   aggregateRating: {
     '@type': 'AggregateRating',
     ratingValue: '4.7',
@@ -92,19 +92,19 @@ const SERVICE_SCHEMA = {
   offers: {
     '@type': 'Offer',
     price: '250',
-    priceCurrency: 'AUD',
-    description: 'Open an account free of charge with a minimum first funding of A$250.',
+    priceCurrency: 'USD',
+    description: 'Open an account free of charge with a minimum first funding of $250.',
     availability: 'https://schema.org/InStock',
     shippingDetails: {
       '@type': 'OfferShippingDetails',
       shippingRate: {
         '@type': 'MonetaryAmount',
         value: '0',
-        currency: 'AUD',
+        currency: 'USD',
       },
       shippingDestination: {
         '@type': 'DefinedRegion',
-        addressCountry: 'AU',
+        name: 'Worldwide',
       },
       deliveryTime: {
         '@type': 'ShippingDeliveryTime',
@@ -124,7 +124,7 @@ const SERVICE_SCHEMA = {
     },
     hasMerchantReturnPolicy: {
       '@type': 'MerchantReturnPolicy',
-      applicableCountry: 'AU',
+      applicableCountry: 'Worldwide',
       returnPolicyCategory: 'https://schema.org/MerchantReturnFiniteReturnWindow',
       merchantReturnDays: 14,
       returnMethod: 'https://schema.org/ReturnByMail',
@@ -135,7 +135,7 @@ const SERVICE_SCHEMA = {
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="en-AU" className={`${inter.variable} ${plexMono.variable}`}>
+    <html lang="en" className={`${inter.variable} ${plexMono.variable}`}>
       <body>
         <Header />
         <main>{children}</main>

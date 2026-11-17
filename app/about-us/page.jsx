@@ -24,25 +24,25 @@ const PILLARS = [
 ];
 
 export const metadata = {
-  title: 'About Us | Reine Fondange AI - Elegant Trading for Australia',
+  title: 'About Us | Reine Fondange AI - Elegant Trading for Everyone',
   description:
-    'Reine Fondange AI was built to make trading structured, secure and composed - for everyone in Australia, not just insiders.',
+    'Reine Fondange AI was built to make trading structured, secure and composed - for everyone, not just insiders.',
   keywords:
-    'Reine Fondange AI, AI trading platform, crypto trading Australia, AI trading signals, secure trading platform, about Reine Fondange AI, Australian trading company, secure trading platform Australia',
+    'Reine Fondange AI, AI trading platform, crypto trading, AI trading signals, secure trading platform, about Reine Fondange AI, trading platform, secure trading platform',
   openGraph: {
-    title: 'About Us | Reine Fondange AI - Elegant Trading for Australia',
+    title: 'About Us | Reine Fondange AI - Elegant Trading for Everyone',
     description:
-      'Reine Fondange AI was built to make trading structured, secure and composed - for everyone in Australia, not just insiders.',
+      'Reine Fondange AI was built to make trading structured, secure and composed - for everyone, not just insiders.',
     url: '/about-us',
     type: 'website',
     siteName: 'Reine Fondange AI',
-    locale: 'en_AU',
+    locale: 'en',
     images: ['/og-image.svg'],
   },
   twitter: {
-    title: 'About Us | Reine Fondange AI - Elegant Trading for Australia',
+    title: 'About Us | Reine Fondange AI - Elegant Trading for Everyone',
     description:
-      'Reine Fondange AI was built to make trading structured, secure and composed - for everyone in Australia, not just insiders.',
+      'Reine Fondange AI was built to make trading structured, secure and composed - for everyone, not just insiders.',
     images: ['/og-image.svg'],
   },
   alternates: { canonical: '/about-us' },

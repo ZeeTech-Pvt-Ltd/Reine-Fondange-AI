@@ -4,7 +4,7 @@ import BreadcrumbSchema from '../../src/components/BreadcrumbSchema.jsx';
 const CONTENT = {
   title: 'Terms of Use',
   updated: 'Last updated: September 2026',
-  keywords: ['Reine Fondange AI terms of use', 'platform terms Australia'],
+  keywords: ['Reine Fondange AI terms of use', 'platform terms'],
   sections: [
     {
       h: '1. Agreement',
@@ -56,23 +56,23 @@ const CONTENT = {
 export const metadata = {
   title: 'Terms of Use | Reine Fondange AI',
   description:
-    'Terms of Use for the Reine Fondange AI trading platform - secure crypto investing for Australia.',
+    'Terms of Use for the Reine Fondange AI trading platform - secure crypto investing worldwide.',
   keywords:
-    'Reine Fondange AI, AI trading platform, crypto trading Australia, AI trading signals, secure trading platform, Reine Fondange AI terms of use, platform terms Australia',
+    'Reine Fondange AI, AI trading platform, crypto trading, AI trading signals, secure trading platform, Reine Fondange AI terms of use, platform terms',
   openGraph: {
     title: 'Terms of Use | Reine Fondange AI',
     description:
-      'Terms of Use for the Reine Fondange AI trading platform - secure crypto investing for Australia.',
+      'Terms of Use for the Reine Fondange AI trading platform - secure crypto investing worldwide.',
     url: '/terms-of-use',
     type: 'website',
     siteName: 'Reine Fondange AI',
-    locale: 'en_AU',
+    locale: 'en',
     images: ['/og-image.svg'],
   },
   twitter: {
     title: 'Terms of Use | Reine Fondange AI',
     description:
-      'Terms of Use for the Reine Fondange AI trading platform - secure crypto investing for Australia.',
+      'Terms of Use for the Reine Fondange AI trading platform - secure crypto investing worldwide.',
     images: ['/og-image.svg'],
   },
   alternates: { canonical: '/terms-of-use' },

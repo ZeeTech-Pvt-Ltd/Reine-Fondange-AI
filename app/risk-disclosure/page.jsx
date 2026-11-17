@@ -4,7 +4,7 @@ import BreadcrumbSchema from '../../src/components/BreadcrumbSchema.jsx';
 const CONTENT = {
   title: 'Risk Disclosure',
   updated: 'Last updated: September 2026',
-  keywords: ['Reine Fondange AI risk disclosure', 'crypto investment risk Australia'],
+  keywords: ['Reine Fondange AI risk disclosure', 'crypto investment risk'],
   sections: [
     {
       h: '1. Capital At Risk',
@@ -44,23 +44,23 @@ const CONTENT = {
 export const metadata = {
   title: 'Risk Disclosure | Reine Fondange AI',
   description:
-    'Risk Disclosure for the Reine Fondange AI trading platform - secure crypto investing for Australia.',
+    'Risk Disclosure for the Reine Fondange AI trading platform - secure crypto investing worldwide.',
   keywords:
-    'Reine Fondange AI, AI trading platform, crypto trading Australia, AI trading signals, secure trading platform, Reine Fondange AI risk disclosure, crypto investment risk Australia',
+    'Reine Fondange AI, AI trading platform, crypto trading, AI trading signals, secure trading platform, Reine Fondange AI risk disclosure, crypto investment risk',
   openGraph: {
     title: 'Risk Disclosure | Reine Fondange AI',
     description:
-      'Risk Disclosure for the Reine Fondange AI trading platform - secure crypto investing for Australia.',
+      'Risk Disclosure for the Reine Fondange AI trading platform - secure crypto investing worldwide.',
     url: '/risk-disclosure',
     type: 'website',
     siteName: 'Reine Fondange AI',
-    locale: 'en_AU',
+    locale: 'en',
     images: ['/og-image.svg'],
   },
   twitter: {
     title: 'Risk Disclosure | Reine Fondange AI',
     description:
-      'Risk Disclosure for the Reine Fondange AI trading platform - secure crypto investing for Australia.',
+      'Risk Disclosure for the Reine Fondange AI trading platform - secure crypto investing worldwide.',
     images: ['/og-image.svg'],
   },
   alternates: { canonical: '/risk-disclosure' },

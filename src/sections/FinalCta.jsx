@@ -16,9 +16,6 @@ export default function FinalCta() {
               {CTA_BAND.cta.label}
               <Icon name="arrow-right" size={17} />
             </Link>
-            <Link className="btn btn--ghost" href="/faq">
-              Read the FAQ
-            </Link>
           </div>
           <p className="form__note final-cta__note">{CTA_BAND.note}</p>
         </Reveal>
